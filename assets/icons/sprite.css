@@ -1,0 +1,1081 @@
+.ic {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url(sprite.svg);
+}
+.ic-alarm {
+  width: 16px;
+  height: 16px;
+  background-position: 0 0;
+}
+.ic-align-center {
+  width: 16px;
+  height: 16px;
+  background-position: -32px 0;
+}
+.ic-align-justify {
+  width: 16px;
+  height: 16px;
+  background-position: -64px 0;
+}
+.ic-align-left {
+  width: 16px;
+  height: 16px;
+  background-position: -96px 0;
+}
+.ic-align-right {
+  width: 16px;
+  height: 16px;
+  background-position: -128px 0;
+}
+.ic-anchor {
+  width: 16px;
+  height: 16px;
+  background-position: -160px 0;
+}
+.ic-archive {
+  width: 16px;
+  height: 16px;
+  background-position: -192px 0;
+}
+.ic-arrow-down {
+  width: 16px;
+  height: 16px;
+  background-position: -224px 0;
+}
+.ic-arrow-left {
+  width: 16px;
+  height: 16px;
+  background-position: -256px 0;
+}
+.ic-arrow-right {
+  width: 16px;
+  height: 16px;
+  background-position: -288px 0;
+}
+.ic-arrow-thin-down {
+  width: 16px;
+  height: 16px;
+  background-position: -320px 0;
+}
+.ic-arrow-thin-left {
+  width: 16px;
+  height: 16px;
+  background-position: -352px 0;
+}
+.ic-arrow-thin-right {
+  width: 16px;
+  height: 16px;
+  background-position: -384px 0;
+}
+.ic-arrow-thin-up {
+  width: 16px;
+  height: 16px;
+  background-position: -416px 0;
+}
+.ic-arrow-up {
+  width: 16px;
+  height: 16px;
+  background-position: -448px 0;
+}
+.ic-article {
+  width: 16px;
+  height: 16px;
+  background-position: -480px 0;
+}
+.ic-backspace {
+  width: 16px;
+  height: 16px;
+  background-position: 0 -32px;
+}
+.ic-basket {
+  width: 16px;
+  height: 16px;
+  background-position: -32px -32px;
+}
+.ic-basketball {
+  width: 16px;
+  height: 16px;
+  background-position: -64px -32px;
+}
+.ic-battery-empty {
+  width: 16px;
+  height: 16px;
+  background-position: -96px -32px;
+}
+.ic-battery-full {
+  width: 16px;
+  height: 16px;
+  background-position: -128px -32px;
+}
+.ic-battery-low {
+  width: 16px;
+  height: 16px;
+  background-position: -160px -32px;
+}
+.ic-battery-medium {
+  width: 16px;
+  height: 16px;
+  background-position: -192px -32px;
+}
+.ic-bell {
+  width: 16px;
+  height: 16px;
+  background-position: -224px -32px;
+}
+.ic-blog {
+  width: 16px;
+  height: 16px;
+  background-position: -256px -32px;
+}
+.ic-bluetooth {
+  width: 16px;
+  height: 16px;
+  background-position: -288px -32px;
+}
+.ic-bold {
+  width: 16px;
+  height: 16px;
+  background-position: -320px -32px;
+}
+.ic-bookmark {
+  width: 16px;
+  height: 16px;
+  background-position: -352px -32px;
+}
+.ic-bookmarks {
+  width: 16px;
+  height: 16px;
+  background-position: -384px -32px;
+}
+.ic-box {
+  width: 16px;
+  height: 16px;
+  background-position: -416px -32px;
+}
+.ic-briefcase {
+  width: 16px;
+  height: 16px;
+  background-position: -448px -32px;
+}
+.ic-brightness-low {
+  width: 16px;
+  height: 16px;
+  background-position: -480px -32px;
+}
+.ic-brightness-max {
+  width: 16px;
+  height: 16px;
+  background-position: 0 -64px;
+}
+.ic-brightness-medium {
+  width: 16px;
+  height: 16px;
+  background-position: -32px -64px;
+}
+.ic-broadcast {
+  width: 16px;
+  height: 16px;
+  background-position: -64px -64px;
+}
+.ic-browser {
+  width: 16px;
+  height: 16px;
+  background-position: -96px -64px;
+}
+.ic-browser-upload {
+  width: 16px;
+  height: 16px;
+  background-position: -128px -64px;
+}
+.ic-brush {
+  width: 16px;
+  height: 16px;
+  background-position: -160px -64px;
+}
+.ic-calendar {
+  width: 16px;
+  height: 16px;
+  background-position: -192px -64px;
+}
+.ic-camcorder {
+  width: 16px;
+  height: 16px;
+  background-position: -224px -64px;
+}
+.ic-camera {
+  width: 16px;
+  height: 16px;
+  background-position: -256px -64px;
+}
+.ic-card {
+  width: 16px;
+  height: 16px;
+  background-position: -288px -64px;
+}
+.ic-cart {
+  width: 16px;
+  height: 16px;
+  background-position: -320px -64px;
+}
+.ic-checklist {
+  width: 16px;
+  height: 16px;
+  background-position: -352px -64px;
+}
+.ic-checkmark {
+  width: 16px;
+  height: 16px;
+  background-position: -384px -64px;
+}
+.ic-chevron-down {
+  width: 16px;
+  height: 16px;
+  background-position: -416px -64px;
+}
+.ic-chevron-left {
+  width: 16px;
+  height: 16px;
+  background-position: -448px -64px;
+}
+.ic-chevron-right {
+  width: 16px;
+  height: 16px;
+  background-position: -480px -64px;
+}
+.ic-chevron-up {
+  width: 16px;
+  height: 16px;
+  background-position: 0 -96px;
+}
+.ic-clipboard {
+  width: 16px;
+  height: 16px;
+  background-position: -32px -96px;
+}
+.ic-clock {
+  width: 16px;
+  height: 16px;
+  background-position: -64px -96px;
+}
+.ic-clockwise {
+  width: 16px;
+  height: 16px;
+  background-position: -96px -96px;
+}
+.ic-cloud {
+  width: 16px;
+  height: 16px;
+  background-position: -128px -96px;
+}
+.ic-cloud-download {
+  width: 16px;
+  height: 16px;
+  background-position: -160px -96px;
+}
+.ic-cloud-upload {
+  width: 16px;
+  height: 16px;
+  background-position: -192px -96px;
+}
+.ic-code {
+  width: 16px;
+  height: 16px;
+  background-position: -224px -96px;
+}
+.ic-contract {
+  width: 16px;
+  height: 16px;
+  background-position: -256px -96px;
+}
+.ic-contract-2 {
+  width: 16px;
+  height: 16px;
+  background-position: -288px -96px;
+}
+.ic-conversation {
+  width: 16px;
+  height: 16px;
+  background-position: -320px -96px;
+}
+.ic-copy {
+  width: 16px;
+  height: 16px;
+  background-position: -352px -96px;
+}
+.ic-crop {
+  width: 16px;
+  height: 16px;
+  background-position: -384px -96px;
+}
+.ic-cross {
+  width: 16px;
+  height: 16px;
+  background-position: -416px -96px;
+}
+.ic-crosshair {
+  width: 16px;
+  height: 16px;
+  background-position: -448px -96px;
+}
+.ic-cutlery {
+  width: 16px;
+  height: 16px;
+  background-position: -480px -96px;
+}
+.ic-device-desktop {
+  width: 16px;
+  height: 16px;
+  background-position: 0 -128px;
+}
+.ic-device-mobile {
+  width: 16px;
+  height: 16px;
+  background-position: -32px -128px;
+}
+.ic-device-tablet {
+  width: 16px;
+  height: 16px;
+  background-position: -64px -128px;
+}
+.ic-direction {
+  width: 16px;
+  height: 16px;
+  background-position: -96px -128px;
+}
+.ic-disc {
+  width: 16px;
+  height: 16px;
+  background-position: -128px -128px;
+}
+.ic-document {
+  width: 16px;
+  height: 16px;
+  background-position: -160px -128px;
+}
+.ic-document-delete {
+  width: 16px;
+  height: 16px;
+  background-position: -192px -128px;
+}
+.ic-document-edit {
+  width: 16px;
+  height: 16px;
+  background-position: -224px -128px;
+}
+.ic-document-new {
+  width: 16px;
+  height: 16px;
+  background-position: -256px -128px;
+}
+.ic-document-remove {
+  width: 16px;
+  height: 16px;
+  background-position: -288px -128px;
+}
+.ic-dot {
+  width: 16px;
+  height: 16px;
+  background-position: -320px -128px;
+}
+.ic-dots-2 {
+  width: 16px;
+  height: 16px;
+  background-position: -352px -128px;
+}
+.ic-dots-3 {
+  width: 16px;
+  height: 16px;
+  background-position: -384px -128px;
+}
+.ic-download {
+  width: 16px;
+  height: 16px;
+  background-position: -416px -128px;
+}
+.ic-duplicate {
+  width: 16px;
+  height: 16px;
+  background-position: -448px -128px;
+}
+.ic-enter {
+  width: 16px;
+  height: 16px;
+  background-position: -480px -128px;
+}
+.ic-exit {
+  width: 16px;
+  height: 16px;
+  background-position: 0 -160px;
+}
+.ic-expand {
+  width: 16px;
+  height: 16px;
+  background-position: -32px -160px;
+}
+.ic-expand-2 {
+  width: 16px;
+  height: 16px;
+  background-position: -64px -160px;
+}
+.ic-experiment {
+  width: 16px;
+  height: 16px;
+  background-position: -96px -160px;
+}
+.ic-export {
+  width: 16px;
+  height: 16px;
+  background-position: -128px -160px;
+}
+.ic-feed {
+  width: 16px;
+  height: 16px;
+  background-position: -160px -160px;
+}
+.ic-flag {
+  width: 16px;
+  height: 16px;
+  background-position: -192px -160px;
+}
+.ic-flashlight {
+  width: 16px;
+  height: 16px;
+  background-position: -224px -160px;
+}
+.ic-folder {
+  width: 16px;
+  height: 16px;
+  background-position: -256px -160px;
+}
+.ic-folder-open {
+  width: 16px;
+  height: 16px;
+  background-position: -288px -160px;
+}
+.ic-forward {
+  width: 16px;
+  height: 16px;
+  background-position: -320px -160px;
+}
+.ic-gaming {
+  width: 16px;
+  height: 16px;
+  background-position: -352px -160px;
+}
+.ic-gear {
+  width: 16px;
+  height: 16px;
+  background-position: -384px -160px;
+}
+.ic-graduation {
+  width: 16px;
+  height: 16px;
+  background-position: -416px -160px;
+}
+.ic-graph-bar {
+  width: 16px;
+  height: 16px;
+  background-position: -448px -160px;
+}
+.ic-graph-line {
+  width: 16px;
+  height: 16px;
+  background-position: -480px -160px;
+}
+.ic-graph-pie {
+  width: 16px;
+  height: 16px;
+  background-position: 0 -192px;
+}
+.ic-headset {
+  width: 16px;
+  height: 16px;
+  background-position: -32px -192px;
+}
+.ic-heart {
+  width: 16px;
+  height: 16px;
+  background-position: -64px -192px;
+}
+.ic-help {
+  width: 16px;
+  height: 16px;
+  background-position: -96px -192px;
+}
+.ic-home {
+  width: 16px;
+  height: 16px;
+  background-position: -128px -192px;
+}
+.ic-hourglass {
+  width: 16px;
+  height: 16px;
+  background-position: -160px -192px;
+}
+.ic-inbox {
+  width: 16px;
+  height: 16px;
+  background-position: -192px -192px;
+}
+.ic-information {
+  width: 16px;
+  height: 16px;
+  background-position: -224px -192px;
+}
+.ic-italic {
+  width: 16px;
+  height: 16px;
+  background-position: -256px -192px;
+}
+.ic-jewel {
+  width: 16px;
+  height: 16px;
+  background-position: -288px -192px;
+}
+.ic-lifting {
+  width: 16px;
+  height: 16px;
+  background-position: -320px -192px;
+}
+.ic-lightbulb {
+  width: 16px;
+  height: 16px;
+  background-position: -352px -192px;
+}
+.ic-link {
+  width: 16px;
+  height: 16px;
+  background-position: -384px -192px;
+}
+.ic-link-broken {
+  width: 16px;
+  height: 16px;
+  background-position: -416px -192px;
+}
+.ic-list {
+  width: 16px;
+  height: 16px;
+  background-position: -448px -192px;
+}
+.ic-loading {
+  width: 16px;
+  height: 16px;
+  background-position: -480px -192px;
+}
+.ic-location {
+  width: 16px;
+  height: 16px;
+  background-position: 0 -224px;
+}
+.ic-lock {
+  width: 16px;
+  height: 16px;
+  background-position: -32px -224px;
+}
+.ic-lock-open {
+  width: 16px;
+  height: 16px;
+  background-position: -64px -224px;
+}
+.ic-mail {
+  width: 16px;
+  height: 16px;
+  background-position: -96px -224px;
+}
+.ic-map {
+  width: 16px;
+  height: 16px;
+  background-position: -128px -224px;
+}
+.ic-media-loop {
+  width: 16px;
+  height: 16px;
+  background-position: -160px -224px;
+}
+.ic-media-next {
+  width: 16px;
+  height: 16px;
+  background-position: -192px -224px;
+}
+.ic-media-pause {
+  width: 16px;
+  height: 16px;
+  background-position: -224px -224px;
+}
+.ic-media-play {
+  width: 16px;
+  height: 16px;
+  background-position: -256px -224px;
+}
+.ic-media-previous {
+  width: 16px;
+  height: 16px;
+  background-position: -288px -224px;
+}
+.ic-media-record {
+  width: 16px;
+  height: 16px;
+  background-position: -320px -224px;
+}
+.ic-media-shuffle {
+  width: 16px;
+  height: 16px;
+  background-position: -352px -224px;
+}
+.ic-media-stop {
+  width: 16px;
+  height: 16px;
+  background-position: -384px -224px;
+}
+.ic-medical {
+  width: 16px;
+  height: 16px;
+  background-position: -416px -224px;
+}
+.ic-menu {
+  width: 16px;
+  height: 16px;
+  background-position: -448px -224px;
+}
+.ic-message {
+  width: 16px;
+  height: 16px;
+  background-position: -480px -224px;
+}
+.ic-meter {
+  width: 16px;
+  height: 16px;
+  background-position: 0 -256px;
+}
+.ic-microphone {
+  width: 16px;
+  height: 16px;
+  background-position: -32px -256px;
+}
+.ic-minus {
+  width: 16px;
+  height: 16px;
+  background-position: -64px -256px;
+}
+.ic-monitor {
+  width: 16px;
+  height: 16px;
+  background-position: -96px -256px;
+}
+.ic-move {
+  width: 16px;
+  height: 16px;
+  background-position: -128px -256px;
+}
+.ic-music {
+  width: 16px;
+  height: 16px;
+  background-position: -160px -256px;
+}
+.ic-network-1 {
+  width: 16px;
+  height: 16px;
+  background-position: -192px -256px;
+}
+.ic-network-2 {
+  width: 16px;
+  height: 16px;
+  background-position: -224px -256px;
+}
+.ic-network-3 {
+  width: 16px;
+  height: 16px;
+  background-position: -256px -256px;
+}
+.ic-network-4 {
+  width: 16px;
+  height: 16px;
+  background-position: -288px -256px;
+}
+.ic-network-5 {
+  width: 16px;
+  height: 16px;
+  background-position: -320px -256px;
+}
+.ic-pamphlet {
+  width: 16px;
+  height: 16px;
+  background-position: -352px -256px;
+}
+.ic-paperclip {
+  width: 16px;
+  height: 16px;
+  background-position: -384px -256px;
+}
+.ic-pencil {
+  width: 16px;
+  height: 16px;
+  background-position: -416px -256px;
+}
+.ic-phone {
+  width: 16px;
+  height: 16px;
+  background-position: -448px -256px;
+}
+.ic-photo {
+  width: 16px;
+  height: 16px;
+  background-position: -480px -256px;
+}
+.ic-photo-group {
+  width: 16px;
+  height: 16px;
+  background-position: 0 -288px;
+}
+.ic-pill {
+  width: 16px;
+  height: 16px;
+  background-position: -32px -288px;
+}
+.ic-pin {
+  width: 16px;
+  height: 16px;
+  background-position: -64px -288px;
+}
+.ic-plus {
+  width: 16px;
+  height: 16px;
+  background-position: -96px -288px;
+}
+.ic-power {
+  width: 16px;
+  height: 16px;
+  background-position: -128px -288px;
+}
+.ic-preview {
+  width: 16px;
+  height: 16px;
+  background-position: -160px -288px;
+}
+.ic-print {
+  width: 16px;
+  height: 16px;
+  background-position: -192px -288px;
+}
+.ic-pulse {
+  width: 16px;
+  height: 16px;
+  background-position: -224px -288px;
+}
+.ic-question {
+  width: 16px;
+  height: 16px;
+  background-position: -256px -288px;
+}
+.ic-reply {
+  width: 16px;
+  height: 16px;
+  background-position: -288px -288px;
+}
+.ic-reply-all {
+  width: 16px;
+  height: 16px;
+  background-position: -320px -288px;
+}
+.ic-return {
+  width: 16px;
+  height: 16px;
+  background-position: -352px -288px;
+}
+.ic-retweet {
+  width: 16px;
+  height: 16px;
+  background-position: -384px -288px;
+}
+.ic-rocket {
+  width: 16px;
+  height: 16px;
+  background-position: -416px -288px;
+}
+.ic-scale {
+  width: 16px;
+  height: 16px;
+  background-position: -448px -288px;
+}
+.ic-search {
+  width: 16px;
+  height: 16px;
+  background-position: -480px -288px;
+}
+.ic-shopping-bag {
+  width: 16px;
+  height: 16px;
+  background-position: 0 -320px;
+}
+.ic-skip {
+  width: 16px;
+  height: 16px;
+  background-position: -32px -320px;
+}
+.ic-social-behance {
+  width: 16px;
+  height: 16px;
+  background-position: -64px -320px;
+}
+.ic-social-blog {
+  width: 16px;
+  height: 16px;
+  background-position: -96px -320px;
+}
+.ic-social-github {
+  width: 16px;
+  height: 16px;
+  background-position: -128px -320px;
+}
+.ic-social-google-plus {
+  width: 16px;
+  height: 16px;
+  background-position: -160px -320px;
+}
+.ic-social-linkedin {
+  width: 16px;
+  height: 16px;
+  background-position: -192px -320px;
+}
+.ic-social-mail {
+  width: 16px;
+  height: 16px;
+  background-position: -224px -320px;
+}
+.ic-social-paypal {
+  width: 16px;
+  height: 16px;
+  background-position: -256px -320px;
+}
+.ic-social-pinterest {
+  width: 16px;
+  height: 16px;
+  background-position: -288px -320px;
+}
+.ic-social-rss {
+  width: 16px;
+  height: 16px;
+  background-position: -320px -320px;
+}
+.ic-social-skype {
+  width: 16px;
+  height: 16px;
+  background-position: -352px -320px;
+}
+.ic-social-tumblr {
+  width: 16px;
+  height: 16px;
+  background-position: -384px -320px;
+}
+.ic-social-twitter {
+  width: 16px;
+  height: 16px;
+  background-position: -416px -320px;
+}
+.ic-social-vimeo {
+  width: 16px;
+  height: 16px;
+  background-position: -448px -320px;
+}
+.ic-social-wordpress {
+  width: 16px;
+  height: 16px;
+  background-position: -480px -320px;
+}
+.ic-social-youtube {
+  width: 16px;
+  height: 16px;
+  background-position: 0 -352px;
+}
+.ic-stack {
+  width: 16px;
+  height: 16px;
+  background-position: -32px -352px;
+}
+.ic-star {
+  width: 16px;
+  height: 16px;
+  background-position: -64px -352px;
+}
+.ic-stopwatch {
+  width: 16px;
+  height: 16px;
+  background-position: -96px -352px;
+}
+.ic-store {
+  width: 16px;
+  height: 16px;
+  background-position: -128px -352px;
+}
+.ic-suitcase {
+  width: 16px;
+  height: 16px;
+  background-position: -160px -352px;
+}
+.ic-swap {
+  width: 16px;
+  height: 16px;
+  background-position: -192px -352px;
+}
+.ic-tag {
+  width: 16px;
+  height: 16px;
+  background-position: -224px -352px;
+}
+.ic-tag-delete {
+  width: 16px;
+  height: 16px;
+  background-position: -256px -352px;
+}
+.ic-tags {
+  width: 16px;
+  height: 16px;
+  background-position: -288px -352px;
+}
+.ic-thumbs-down {
+  width: 16px;
+  height: 16px;
+  background-position: -320px -352px;
+}
+.ic-thumbs-up {
+  width: 16px;
+  height: 16px;
+  background-position: -352px -352px;
+}
+.ic-ticket {
+  width: 16px;
+  height: 16px;
+  background-position: -384px -352px;
+}
+.ic-time-reverse {
+  width: 16px;
+  height: 16px;
+  background-position: -416px -352px;
+}
+.ic-to-do {
+  width: 16px;
+  height: 16px;
+  background-position: -448px -352px;
+}
+.ic-toggles {
+  width: 16px;
+  height: 16px;
+  background-position: -480px -352px;
+}
+.ic-trash {
+  width: 16px;
+  height: 16px;
+  background-position: 0 -384px;
+}
+.ic-trophy {
+  width: 16px;
+  height: 16px;
+  background-position: -32px -384px;
+}
+.ic-upload {
+  width: 16px;
+  height: 16px;
+  background-position: -64px -384px;
+}
+.ic-user {
+  width: 16px;
+  height: 16px;
+  background-position: -96px -384px;
+}
+.ic-user-group {
+  width: 16px;
+  height: 16px;
+  background-position: -128px -384px;
+}
+.ic-user-id {
+  width: 16px;
+  height: 16px;
+  background-position: -160px -384px;
+}
+.ic-vibrate {
+  width: 16px;
+  height: 16px;
+  background-position: -192px -384px;
+}
+.ic-view-apps {
+  width: 16px;
+  height: 16px;
+  background-position: -224px -384px;
+}
+.ic-view-list {
+  width: 16px;
+  height: 16px;
+  background-position: -256px -384px;
+}
+.ic-view-list-large {
+  width: 16px;
+  height: 16px;
+  background-position: -288px -384px;
+}
+.ic-view-thumb {
+  width: 16px;
+  height: 16px;
+  background-position: -320px -384px;
+}
+.ic-volume-full {
+  width: 16px;
+  height: 16px;
+  background-position: -352px -384px;
+}
+.ic-volume-low {
+  width: 16px;
+  height: 16px;
+  background-position: -384px -384px;
+}
+.ic-volume-medium {
+  width: 16px;
+  height: 16px;
+  background-position: -416px -384px;
+}
+.ic-volume-off {
+  width: 16px;
+  height: 16px;
+  background-position: -448px -384px;
+}
+.ic-wallet {
+  width: 16px;
+  height: 16px;
+  background-position: -480px -384px;
+}
+.ic-warning {
+  width: 16px;
+  height: 16px;
+  background-position: 0 -416px;
+}
+.ic-web {
+  width: 16px;
+  height: 16px;
+  background-position: -32px -416px;
+}
+.ic-weight {
+  width: 16px;
+  height: 16px;
+  background-position: -64px -416px;
+}
+.ic-wifi {
+  width: 16px;
+  height: 16px;
+  background-position: -96px -416px;
+}
+.ic-wrong {
+  width: 16px;
+  height: 16px;
+  background-position: -128px -416px;
+}
+.ic-zoom-in {
+  width: 16px;
+  height: 16px;
+  background-position: -160px -416px;
+}
+.ic-zoom-out {
+  width: 16px;
+  height: 16px;
+  background-position: -192px -416px;
+}
+

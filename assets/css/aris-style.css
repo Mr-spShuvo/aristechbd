@@ -1,0 +1,12 @@
+:root{
+    --c-main : #6fda45;
+    --c-main-light: #afeb5d;
+    --c-sec: #1d4354;
+    --c-light: #f9f9f9;
+    --c-dark: #494949;
+    --c-text: #222;
+}
+
+body{
+    font-family: 'Signika', Arial, Helvetica, sans-serif;
+}
