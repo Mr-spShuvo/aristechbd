@@ -45,13 +45,14 @@ body {
 .divider {
     height: 2px;
     background-color: var(--c-light);
-    border-radius: 30%;;
+    border-radius: 30%;
+    ;
     width: 25%;
     border: none;
-    margin-bottom: 20px
+    margin-bottom: 40px
 }
 
-.divider-main{
+.divider-main {
     background: linear-gradient(to top, var(--c-main), var(--c-main-light));
 }
 
@@ -200,13 +201,13 @@ body {
     text-align: center;
 }
 
-.sec-box__title{
+.sec-box__title {
     text-transform: uppercase;
     font-weight: bold;
     color: var(--c-sub);
 }
 
-.sec-box__content{
+.sec-box__content {
     max-width: 80%;
     margin: auto;
     padding: 15px 0;
@@ -216,12 +217,196 @@ body {
 /*---------------------------
     => Services Section
 -----------------------------*/
-.services{
+.services {
     background-color: var(--c-light);
     padding: 80px 0;
-    
+
 }
 
+.service-box {
+    background-color: #fff;
+    box-shadow: 3px -3px 40px var(--c-shadow-light);
+    text-align: center;
+    padding: 40px 0;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.service-box:hover {
+    transform: translateY(-10px);
+}
+
+.service-box__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 80px;
+    box-shadow: 1px 1px 30px var(--c-shadow-light);
+    border-radius: 50%;
+    margin: 20px auto;
+    transition: transform 0.1s ease-in-out;
+}
+
+.service-box__icon>svg {
+    height: 32px;
+    width: 32px;
+    color: var(--c-main-light);
+}
+
+
+.service-box__title {
+    letter-spacing: 1px;
+    font-size: 20px;
+    color: var(--c-sub);
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.service-box__description {
+    padding: 0 20px;
+    font-size: 14px;
+}
+
+.service-box__link {
+    color: var(--c-main-light);
+}
+
+.service-box__link:hover {
+    color: var(--c-main-light);
+    text-decoration: none;
+}
+
+/*---------------------------
+    => Overview Section
+-----------------------------*/
+
+.why {
+    padding: 80px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.why-box__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 80px;
+    box-shadow: 1px 1px 30px var(--c-shadow-light);
+    border-radius: 50%;
+    margin: 20px auto;
+    transition: all 0.1s ease-in-out;
+}
+
+.why-box__icon>svg {
+    height: 32px;
+    width: 32px;
+    color: var(--c-light);
+}
+
+.why-box__icon:hover {
+    background-color: #fff;
+    transform: translateY(-5px);
+}
+
+.why-box__icon-1 {
+    background-color: var(--c-purple);
+}
+
+.why-box__icon-1:hover>svg {
+    color: var(--c-purple);
+}
+
+.why-box__icon-2 {
+    background-color: var(--c-red);
+}
+
+.why-box__icon-2:hover>svg {
+    color: var(--c-red);
+}
+
+.why-box__icon-3 {
+    background-color: var(--c-orange);
+}
+
+.why-box__icon-3:hover>svg {
+    color: var(--c-orange);
+}
+
+
+.why-box__title {
+    letter-spacing: 1px;
+    font-size: 20px;
+    color: var(--c-sub);
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.why-box__description {
+    padding: 0 20px;
+    font-size: 14px;
+    text-align: justify;
+}
+
+
+/*--------------------------
+  => Testimonials Section
+----------------------------*/
+.testimonials-sec {
+    background-color: var(--c-sub);
+    color: var(--c-light);
+    padding: 80px 0;
+}
+
+.testimonials-sec .sec-box__title{
+    color: var(--c-light)
+}
+
+.testimonials-box{
+    width: 75%;
+    margin: auto;
+    position: relative;
+}
+
+.testimonials-box__icon{
+    width: 80px;
+    height: 80px;
+    padding: 20px;
+    background-color: var(--c-light);
+    color: var(--c-main);
+    border-radius: 50%;
+    box-shadow: 1px 1px 12px var(--c-sub-light);
+}
+
+.testimonials-box__content{
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 160px;
+}
+.testimonials-box__author{
+    position: absolute;
+    bottom: 60px;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.testimonials-box__img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.testimonials-box__title{
+    color: var(--c-main);
+    text-transform: uppercase;
+    margin: 0;
+}
 
 
 /*---------------------------
@@ -230,7 +415,7 @@ body {
 .overview {
     margin: 80px 0;
     border-radius: 15px;
-    box-shadow: 3px 3px 40px var(--c-shadow);
+    box-shadow: 3px -3px 40px var(--c-shadow-light);
     text-align: center;
     padding: 40px;
 }
@@ -287,4 +472,3 @@ body {
     font-weight: bold;
     padding-top: 20px;
 }
-
