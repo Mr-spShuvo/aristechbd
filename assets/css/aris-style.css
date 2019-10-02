@@ -9,10 +9,12 @@
     --c-shadow-light: #ddd;
     --c-dark: #555;
     --c-text: #333;
-    --c-red: rgb(255, 136, 115);
-    --c-purple: rgb(173, 116, 226);
-    --c-green: rgb(82, 185, 51);
-    --c-orange: rgb(253, 160, 72);
+    --c-red: #ef5350;
+    --c-purple: #ab47bc;
+    --c-green: #8bc34a;
+    --c-orange: #ff9800;
+    --c-teal: #009688;
+    --c-cyan: #00bcd4;
     --font: 'PT Sans', Arial, Helvetica, sans-serif;
 }
 
@@ -320,11 +322,11 @@ body {
 }
 
 .why-box__icon-2 {
-    background-color: var(--c-red);
+    background-color: var(--c-teal);
 }
 
 .why-box__icon-2:hover>svg {
-    color: var(--c-red);
+    color: var(--c-teal);
 }
 
 .why-box__icon-3 {
@@ -334,6 +336,33 @@ body {
 .why-box__icon-3:hover>svg {
     color: var(--c-orange);
 }
+
+
+.why-box__icon-4 {
+    background-color: var(--c-red);
+}
+
+.why-box__icon-4:hover>svg {
+    color: var(--c-red);
+}
+
+.why-box__icon-5 {
+    background-color: var(--c-green);
+}
+
+.why-box__icon-5:hover>svg {
+    color: var(--c-green);
+}
+
+.why-box__icon-6 {
+    background-color: var(--c-cyan);
+}
+
+.why-box__icon-6:hover>svg {
+    color: var(--c-cyan);
+}
+
+
 
 
 .why-box__title {
@@ -356,13 +385,11 @@ body {
   => Testimonials Section
 ----------------------------*/
 .testimonials-sec {
-    background-color: var(--c-sub);
-    color: var(--c-light);
-    padding: 120px 0;
+    background-color: var(--c-light);
 }
 
 .testimonials-sec .sec-box__title {
-    color: var(--c-light)
+    color: var(--c-sub)
 }
 
 .testimonials-box {
@@ -372,15 +399,27 @@ body {
 }
 
 .testimonials-box__icon {
+    margin-top: 20px;
     width: 80px;
     height: 80px;
     padding: 20px;
     background-color: var(--c-light);
-    color: var(--c-main);
+    color: var(--c-main-light);
     border-radius: 50%;
-    box-shadow: 1px 1px 12px var(--c-sub-light);
+    box-shadow: 1px -2px 30px var(--c-shadow-light);
 }
 
+.carousel-indicators li{
+    background-color: var(--c-sub);
+}
+.carousel-control-next, .carousel-control-prev{
+    background-color: var(--c-sub);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    top: 40%;
+
+}
 .testimonials-box__content {
     width: 80%;
     margin: auto;
@@ -415,30 +454,35 @@ body {
 -----------------------------*/
 
 .overview {
-    margin: 120px 0;
+    margin: 80px 0;
     border-radius: 15px;
     box-shadow: 3px -3px 40px var(--c-shadow-light);
     text-align: center;
-    padding: 40px;
-    background: #fff;
+    padding: 20px;
+    background: linear-gradient( to bottom right, var(--c-sub-light), var(--c-sub));
+    color: var(--c-light);
     z-index: 1;
 }
 
+.overview .divider{
+    margin: 0 auto;
+}
 
 .overview__heading {
     text-transform: uppercase;
     font-weight: bold;
-    color: var(--c-sub);
+    color: var(--c-light);
     padding: 20px;
 }
 
 .overview__icon {
+    background: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 80px;
-    width: 80px;
-    box-shadow: 1px 1px 30px var(--c-shadow-light);
+    height: 70px;
+    width: 70px;
+    box-shadow: 1px 1px 30px var(--c-sub-light);
     border-radius: 50%;
     margin: 20px auto;
     transition: transform 0.1s ease-in-out;
@@ -450,8 +494,8 @@ body {
 }
 
 .overview__icon>svg {
-    height: 36px;
-    width: 36px;
+    height: 32px;
+    width: 32px;
 }
 
 .overview__icon>svg.lead {
@@ -472,15 +516,14 @@ body {
 }
 
 .overview__title {
-    color: var(--c-dark);
-    font-size: 42px;
+    color: var(--c-light);
+    font-size: 36px;
     font-weight: bold;
-    padding-top: 20px;
 }
 
 .overview-path {
     background-color: var(--c-light);
-    margin-top: -300px;
+    margin-top: -240px;
     position: relative;
     z-index: -1;
     height: 360px;
@@ -493,8 +536,8 @@ body {
 
 
 .brands {
-    background-color: var(--c-light);
-    padding-bottom: 120px;
+    background-color: #fff;
+    padding: 120px 0;
 }
 
 .brand-box {
@@ -525,18 +568,20 @@ body {
 }
 
 /*---------------------------
-    => Portfolio-Sub Section
+    => Portfolio-c2a Section
 -----------------------------*/
 
 
 
 .portfolio-c2a {
-    margin-top: 120px;
-
+    background-color: var(--c-light);
+    padding-top: 120px;
+    position: relative;
+    z-index: 1;
 }
 
 .portfolio-box {
-    background-color: var(--c-light);
+    background-color: #fff;
     padding: 40px 20px;
     border-radius: 15px;
     display: flex;
@@ -550,8 +595,8 @@ body {
     width: 80px;
     height: 80px;
     padding: 20px;
-    background-color: #fff;
-    color: var(--c-sub-light);
+    background-color: var(--c-main-light);
+    color: var(--c-light);
     border-radius: 50%;
     box-shadow: 3px 3px 12px var(--c-shadow-light);
     transition: all .2s ease-in-out;
@@ -578,10 +623,12 @@ body {
 
 .portfolio-path {
     background-color: var(--c-sub);
-    margin-top: -80px;
-    position: relative;
+    width: 100%;
+    height: 160px;
+    position: absolute;
+    top: 220px;
+    left: 0;
     z-index: -1;
-    height: 80px;
 }
 
 
@@ -635,12 +682,17 @@ body {
     transition: all 0.2s ease-in-out;
 }
 
-.footer-social li a:hover {
+/* .footer-social li a:hover {
     color: var(--c-light);
 }
 
 .footer-social li:hover {
     background-color: var(--c-main-light);
+} */
+
+.footer-social li a img{
+    width: 26.5px;
+    height: 25px;
 }
 
 .footer-menu-title {
@@ -797,4 +849,48 @@ url('../img/blog.jpg');
     letter-spacing: .5px;
     font-size: 26px;
     color: var(--c-sub);
+}
+
+
+/*---------------------------
+    => Portfolio Page
+-----------------------------*/
+.portfolio{
+    margin: 100px 0;
+}
+.portfolio .card-img-top{
+    height: 240px;
+    border-radius: 10px 10px 0 0;
+}
+
+.portfolio .card{
+    border-radius: 10px;
+    box-shadow: 1px 1px 30px var(--c-shadow-light);
+    border: none;
+    margin: 20px auto;
+}
+
+.portfolio .card-title{
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--c-sub);
+}
+
+.portfolio .card .p-meta {
+    color: var(--c-dark);
+    font-size: 14px;
+    padding: 0;
+    margin-bottom: 2px;
+}
+
+.portfolio .card .p-meta svg{
+    height: 16px;
+    width: 16px;
+    color: var(--c-main);
+}
+.portfolio .card .p-meta-info{
+    font-weight: bold;
+    color: var(--c-main);
 }
