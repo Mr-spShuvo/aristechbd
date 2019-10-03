@@ -58,6 +58,35 @@ body {
     background: linear-gradient(to top, var(--c-main), var(--c-main-light));
 }
 
+a {
+    color: var(--c-main-light);
+    transition: all .1s ease-in-out;
+}
+
+a:hover {
+    text-decoration: none;
+    color: var(--c-main);
+}
+
+.content-box{
+    max-width: 72%;
+    margin: auto;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: var(--c-main-light);
+}
+
+h1,h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+img{
+    width: 10%;
+}
+
 /*---------------------------
     => Button Section
 -----------------------------*/
@@ -112,11 +141,6 @@ body {
     box-shadow: 3px 3px 12px var(--c-sub);
 }
 
-.content-box{
-    max-width: 72%;
-    margin: auto;
-}
-
 /*---------------------------
     => Navigation Section
 -----------------------------*/
@@ -131,7 +155,9 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
+.navbar-brand img{
+    width: 40px;
+}
 .nav-item {
     padding-left: 15px;
 }
@@ -194,6 +220,7 @@ body {
     font-weight: bold;
     letter-spacing: 8px;
     margin-bottom: 20px;
+    color: var(--c-light);
 }
 
 .hero-box__content {
@@ -275,14 +302,6 @@ body {
     font-size: 14px;
 }
 
-.service-box__link {
-    color: var(--c-main-light);
-}
-
-.service-box__link:hover {
-    color: var(--c-main-light);
-    text-decoration: none;
-}
 
 /*---------------------------
     => Overview Section
@@ -661,6 +680,10 @@ body {
     text-decoration: none;
 }
 
+.footer-sec .site-overview img{
+    width: 40px;
+} 
+
 .footer-sec .site-overview p {
     margin: 20px 0;
     text-align: justify;
@@ -783,6 +806,7 @@ body {
     text-transform: uppercase;
     font-size: 28px;
     letter-spacing: 5px;
+    color: var(--c-light);
 }
 
 .page-header__text{
@@ -843,15 +867,15 @@ body {
     margin-bottom: 10px;
 }
 
-.article-box__content-title {
+.article-box__content-title h2{
     text-transform: uppercase;
     letter-spacing: .5px;
-    font-size: 26px;
+    font-size: 24px;
     color: var(--c-sub);
     transition: all 0.3s ease-in-out;
 }
 
-.article-box__content-title:hover {
+.article-box__content-title h2:hover {
     color: var(--c-sub-light);
     text-decoration: none;
 }
@@ -933,4 +957,74 @@ url('../img/blog.jpg');
 .portfolio .card .p-meta-info{
     font-weight: bold;
     color: var(--c-main);
+}
+
+.portfolio .p-link{
+    color: var(--c-main);
+}
+
+.portfolio .p-link:hover{
+    color: var(--c-main-light);
+
+}
+
+/*---------------------------
+    => Portfolio Single Page
+-----------------------------*/
+
+
+.portfolio-single__header{
+    background: linear-gradient(to top right, var(--c-sub-light), var(--c-sub)); 
+    margin-top: 60px;
+    padding:  60px;
+    padding-bottom: 50px;
+    color: var(--c-light);
+}
+
+
+.portfolio-single__icon svg{
+    width: 100px;
+    height: 100px;
+    color: var(--c-main-light);
+    margin-right: 30px;
+    border: 5px solid var(--c-main-light);
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.portfolio-single__meta .p-meta{
+    font-size: 15px;
+}
+
+
+.portfolio-single__meta .p-meta svg{
+    height: 16px;
+    width: 16px;
+    color: var(--c-main-light);
+}
+
+.portfolio-single__meta .p-meta-info{
+    font-weight: bold;
+    color: var(--c-main-light);
+}
+
+.portfolio-single__meta .btn-main{
+    box-shadow: 3px 3px 12px var(--c-sub-light);
+}
+
+.portfolio-single__content{
+    margin: 40px 0 80px 0;
+}
+
+.portfolio-single__thumb img{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 40px;
+}
+
+.portfolio-single__contact a{
+    padding: 15px 60px;
+    font-size: 15px;
+    letter-spacing: 2px;
 }
