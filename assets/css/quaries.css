@@ -1,0 +1,11 @@
+/*----- Below 1366px -----*/
+@media only screen and (max-width: 1366px) {}
+
+/*----- Below 1024px -----*/
+@media only screen and (max-width: 1024px) {}
+
+/*----- Below 768px -----*/
+@media only screen and (max-width: 768px) {}
+
+/*----- Below 480px ----- */
+@media only screen and (max-width: 480px) {}
