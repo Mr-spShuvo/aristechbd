@@ -8,51 +8,42 @@
     </div>
     <section class="blogs">
         <div class="content-box">
-            <article class="article-box">
-                <div class="article-box__img">
-                </div>
-                <div class="article-box__meta">
-                    <span>July 01, 2017</span>
-                </div>
+            <?php while (have_posts()) : the_post(); ?>
+                <article class="article-box">
 
-                <div class="article-box__content">
-                    <a class="article-box__content-title" href="#">
-                        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
-                    </a>
-                    <p class="article-box__content-excerpt">Lorem ipsum dolor sit amet
-                        consectetur adipisicing elit. Recusandae, ex dicta. Odio voluptate
-                        aliquam consectetur in nulla esse quo repellat, numquam, beatae at
-                        dolores, amet pariatur dolor nam rem explicabo!</p>
-                    <a href="" class="btn btn-main article-box__content-link">Read More <i class="ic" data-feather="arrow-right"></i></a>
-                </div>
+                    <?php if (has_post_thumbnail()) : ?>
+                        <div class="article-box__img" style="background-image: url('<?php the_post_thumbnail_url(); ?>')"> </div>
+                    <?php else : ?>
+                        <div class="article-box__img"></div>
+                    <?php endif; ?>
+
+                    <div class="article-box__meta">
+                        <span><?php the_date('M d, Y') ?></span>
+                    </div>
+
+                    <div class="article-box__content">
+                        <a class="article-box__content-title" href="#">
+                            <h2><?php the_title(); ?></h2>
+                        </a>
+                        <p class="article-box__content-excerpt">
+                            <?php echo wp_trim_words(get_the_content(), 80); ?>
+                        </p>
+                        <a href="<?php the_permalink(); ?>" class="btn btn-main article-box__content-link">Read More <i class="ic" data-feather="arrow-right"></i></a>
+                    </div>
+                </article>
+            <?php endwhile; ?>
 
 
-            </article>
-
-            <article class="article-box">
-                <div class="article-box__img">
-                </div>
+            <div class="pagination-box text-center m-auto">
                 
-                <div class="article-box__meta">
-                    <span>July 01, 2017</span>
-                </div>
-
-                <div class="article-box__content">
-                    <a class="article-box__content-title" href="#">
-                        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
-                    </a>
-                    <p class="article-box__content-excerpt">Lorem ipsum dolor sit amet
-                        consectetur adipisicing elit. Recusandae, ex dicta. Odio voluptate
-                        aliquam consectetur in nulla esse quo repellat, numquam, beatae at
-                        dolores, amet pariatur dolor nam rem explicabo!</p>
-                    <a href="" class="btn btn-main article-box__content-link">Read More <i class="ic" data-feather="arrow-right"></i></a>
-                </div>
-
-
-            </article>
-
-            <div class="paginations text-center">
-                <h2>Pagination will go here</h2>
+                <?php 
+                $paginations_args = array(
+                    'mid_size'           => 1,
+                    'prev_text'          => _x( '&laquo;', 'previous set of posts' ),
+                    'next_text'          => _x( '&raquo;', 'next set of posts' ),
+                    'screen_reader_text' => __( 'Posts navigation' ),
+                );
+                echo the_posts_pagination($paginations_args); ?>
             </div>
         </div>
     </section>
