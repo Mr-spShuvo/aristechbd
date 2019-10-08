@@ -5,7 +5,7 @@
         <?php while (have_posts()) : the_post(); ?>
 
             <?php if (has_post_thumbnail()) : ?>
-                <div class="single__img"  style="background-image: linear-gradient(to bottom, #1d435480, #41a00080), 
+                <div class="single__img" style="background-image: linear-gradient(to bottom, #1d435480, #41a00080), 
                     url('<?php the_post_thumbnail_url(); ?>');">
                 </div>
             <?php else : ?>

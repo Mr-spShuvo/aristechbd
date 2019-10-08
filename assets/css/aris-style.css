@@ -1297,25 +1297,8 @@ img {
 }
 
 
-.looking-for__box ul {
-    margin: 0;
-    padding: 0;
-}
-
-.looking-for__box ul li {
-    list-style: none;
-    padding: 5px 0;
-}
-
-.looking-for__box ul li svg {
-    width: 16px;
-    height: 16px;
-    color: var(--c-main-light);
-    margin-right: 10px;
-}
-
 .services-info {
-    margin-top: 120px;
+    margin-top: 80px;
 }
 
 
@@ -1338,6 +1321,10 @@ img {
         top: 70px;
     }
 
+    .looking-for__content{
+        padding-right: 0 !important;
+    }
+
 
 }
 
@@ -1353,7 +1340,7 @@ img {
     }
 
     .services-header__text {
-        font-size: 14px;
+        font-size: 13px;
         width: 100%;
     }
 }

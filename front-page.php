@@ -3,8 +3,8 @@
 <section class="hero">
     <div class="hero-content">
         <video class="hero-vid" autoplay loop>
-            <source src="<?php echo get_template_directory_uri().'/assets/vid/hero-bg.mp4'; ?>" type="video/mp4">
-            <img src="<?php echo get_template_directory_uri().'/assets/vid/hero-bg.jpg'; ?>" title="Your browser does not support the video.">
+            <source src="<?php echo get_template_directory_uri() . '/assets/vid/hero-bg.mp4'; ?>" type="video/mp4">
+            <img src="<?php echo get_template_directory_uri() . '/assets/vid/hero-bg.jpg'; ?>" title="Your browser does not support the video.">
         </video>
         <div id="video-overlays"></div>
         <div class="hero-box">
@@ -18,6 +18,7 @@
 </section>
 
 <main class="main-sec">
+
     <section class="services" id="services">
         <div class="container">
             <div class="sec-box">
@@ -29,81 +30,37 @@
                 <hr class="divider divider-main">
             </div>
             <div class="row">
-                <div class="col-sm-12 col-md-6 col-lg-4 mb-5">
-                    <div class="service-box">
-                        <div class="service-box__icon">
-                            <i data-feather="briefcase"></i>
-                        </div>
-                        <h3 class="service-box__title">Sales & Marketing</h3>
-                        <p class="service-box__description">Lorem ipsum, dolor sit amet
-                            consectetur adipisicing elit. Saepe vitae doloribus facilis magnam
-                            dolores, tenetur veniam soluta neque ea quis.</p>
-                        <a class="service-box__link" href="../static/services.html">Learn More
-                            <i data-feather="arrow-right"></i></a>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-4 mb-5">
-                    <div class="service-box">
-                        <div class="service-box__icon">
-                            <i data-feather="users"></i>
-                        </div>
-                        <h3 class="service-box__title">Lead Generation</h3>
-                        <p class="service-box__description">Lorem ipsum, dolor sit amet
-                            consectetur adipisicing elit. Saepe vitae doloribus facilis magnam
-                            dolores, tenetur veniam soluta neque ea quis.</p>
-                        <a class="service-box__link" href="#">Learn More <i data-feather="arrow-right"></i></a>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-4 mb-5">
-                    <div class="service-box">
-                        <div class="service-box__icon">
-                            <i data-feather="chrome"></i>
-                        </div>
-                        <h3 class="service-box__title">Online Research</h3>
-                        <p class="service-box__description">Lorem ipsum, dolor sit amet
-                            consectetur adipisicing elit. Saepe vitae doloribus facilis magnam
-                            dolores, tenetur veniam soluta neque ea quis.</p>
-                        <a class="service-box__link" href="#">Learn More <i data-feather="arrow-right"></i></a>
-                    </div>
-                </div>
 
-                <div class="col-sm-12 col-md-6 col-lg-4 mb-5">
-                    <div class="service-box">
-                        <div class="service-box__icon">
-                            <i data-feather="life-buoy"></i>
+                <?php
+
+                $services_data = new WP_Query(
+                    array(
+                        'posts_per_page' => 12,
+                        'post_type' => 'services',
+                        'order' => 'ASC',
+                    )
+                );
+
+                while ($services_data->have_posts()) :
+                    $services_data->the_post();
+                    ?>
+                    <div class="col-sm-12 col-md-6 col-lg-4 mb-5 d-flex">
+                        <div class="service-box">
+                            <div class="service-box__icon">
+                                <i data-feather="<?php echo get_field('services_icon'); ?>"></i>
+                            </div>
+
+
+                            <h1 class="service-box__title"><?php the_field('services_name') ?></h1>
+                            <p class="service-box__text"><?php the_field('services_info') ?> </p>
+                            <a class="service-box__link" href="<?php echo get_the_permalink(); ?>">Learn More
+                                <i data-feather="arrow-right"></i></a>
                         </div>
-                        <h3 class="service-box__title">Admin Support</h3>
-                        <p class="service-box__description">Lorem ipsum, dolor sit amet
-                            consectetur adipisicing elit. Saepe vitae doloribus facilis magnam
-                            dolores, tenetur veniam soluta neque ea quis.</p>
-                        <a class="service-box__link" href="#">Learn More <i data-feather="arrow-right"></i></a>
                     </div>
 
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-4 mb-5">
-                    <div class="service-box">
-                        <div class="service-box__icon">
-                            <i data-feather="headphones"></i>
-                        </div>
-                        <h3 class="service-box__title">Virtual Assistant</h3>
-                        <p class="service-box__description">Lorem ipsum, dolor sit amet
-                            consectetur adipisicing elit. Saepe vitae doloribus facilis magnam
-                            dolores, tenetur veniam soluta neque ea quis.</p>
-                        <a class="service-box__link" href="#">Learn More <i data-feather="arrow-right"></i></a>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-4 mb-5">
-                    <div class="service-box">
-                        <div class="service-box__icon">
-                            <i data-feather="printer"></i>
-                        </div>
-                        <h3 class="service-box__title">Data Entry</h3>
-                        <p class="service-box__description">Lorem ipsum, dolor sit amet
-                            consectetur adipisicing elit. Saepe vitae doloribus facilis magnam
-                            dolores, tenetur veniam soluta neque ea quis.</p>
-                        <a class="service-box__link" href="#">Learn More <i data-feather="arrow-right"></i></a>
-                    </div>
-                </div>
+                <?php endwhile;
+                wp_reset_query(); ?>
+
             </div>
         </div>
     </section>
@@ -123,7 +80,7 @@
                         <div class="col-sm mb-5">
                             <div class="brand-box">
                                 <a class="brand-box__link" href="https://www.upwork.com/o/companies/~010ce9dc1d64f66af6" target="_blank">
-                                    <div class="brand-box__image" style="background-image: url(<?php echo get_template_directory_uri().'/assets/img/brand-1.png'; ?>);">
+                                    <div class="brand-box__image" style="background-image: url(<?php echo get_template_directory_uri() . '/assets/img/brand-1.png'; ?>);">
                                     </div>
                                     <p class="brand-box__learn">Learn More <i class="ic" data-feather="arrow-right"></i></p>
                                 </a>
@@ -132,7 +89,7 @@
                         <div class="col-sm mb-5">
                             <div class="brand-box">
                                 <a class="brand-box__link" href="https://www.upwork.com/o/companies/~01c3b3047a7e58e378" target="_blank">
-                                    <div class="brand-box__image" style="background-image: url(<?php echo get_template_directory_uri().'/assets/img/brand-2.png'; ?>);">
+                                    <div class="brand-box__image" style="background-image: url(<?php echo get_template_directory_uri() . '/assets/img/brand-2.png'; ?>);">
                                     </div>
                                     <p class="brand-box__learn">Learn More <i class="ic" data-feather="arrow-right"></i></p>
                                 </a>
@@ -278,9 +235,10 @@
     </div>
     <div class="overview-path"></div>
 
-    <!-- -->
-    <?php get_template_part( 'template-parts/home', 'testimonials' ) ?>
-    
+
+
+    <?php get_template_part('template-parts/home', 'testimonials') ?>
+
     <section class="portfolio-c2a">
         <div class="container">
             <div class="row portfolio-box">

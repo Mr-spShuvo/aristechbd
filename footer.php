@@ -3,15 +3,15 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 site-overview mb-5">
-                    <a href="<?php echo site_url('/'); ?>"><img src="<?php echo get_template_directory_uri().'/assets/img/icon.png'; ?>" alt="site-logo" height="40" /><span class="text-grad">ArisTech</span> </a>
+                    <a href="<?php echo site_url('/'); ?>"><img src="<?php echo get_template_directory_uri() . '/assets/img/icon.png'; ?>" alt="site-logo" height="40" /><span class="text-grad">ArisTech</span> </a>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio omnis
                         cum, aut eaque expedita ea magnam.</p>
                     <ul class="footer-social">
-                        <li><a href="#" title="Facebook"><i data-feather="facebook"></i></a></li>
-                        <li><a href="#" title="LinkedIn"> <i data-feather="linkedin"></i></a></li>
-                        <li><a href="#" title="Twitter"> <i data-feather="twitter"></i></a></li>
-                        <li><a href="#" title="Angel.co"><img src="<?php echo get_template_directory_uri().'/assets/img/angelco.svg'; ?>" alt="" srcset=""></a></li>
-                        <li><a href="#" title="Crunchbase"><img src="<?php echo get_template_directory_uri().'/assets/img/cb.png'; ?>" alt="" srcset=""></a>
+                        <li><a target="_blank" href="#" title="Facebook"><i data-feather="facebook"></i></a></li>
+                        <li><a target="_blank" href="#" title="LinkedIn"> <i data-feather="linkedin"></i></a></li>
+                        <li><a target="_blank" href="#" title="Twitter"> <i data-feather="twitter"></i></a></li>
+                        <li><a target="_blank" href="#" title="Angel.co"><img src="<?php echo get_template_directory_uri() . '/assets/img/angelco.svg'; ?>" alt="" srcset=""></a></li>
+                        <li><a target="_blank" href="#" title="Crunchbase"><img src="<?php echo get_template_directory_uri() . '/assets/img/cb.png'; ?>" alt="" srcset=""></a>
                         </li>
                     </ul>
                 </div>

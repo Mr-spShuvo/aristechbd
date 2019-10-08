@@ -35,13 +35,13 @@
 
 
             <div class="pagination-box text-center m-auto">
-                
-                <?php 
+
+                <?php
                 $paginations_args = array(
                     'mid_size'           => 1,
-                    'prev_text'          => _x( '&laquo;', 'previous set of posts' ),
-                    'next_text'          => _x( '&raquo;', 'next set of posts' ),
-                    'screen_reader_text' => __( 'Posts navigation' ),
+                    'prev_text'          => _x('&laquo;', 'previous set of posts'),
+                    'next_text'          => _x('&raquo;', 'next set of posts'),
+                    'screen_reader_text' => __('Posts navigation'),
                 );
                 echo the_posts_pagination($paginations_args); ?>
             </div>

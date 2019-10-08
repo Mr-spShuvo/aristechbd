@@ -15,7 +15,7 @@
 
                 $portfolio = new WP_Query(
                     array(
-                        'posts_per_page' => 2,
+                        'posts_per_page' => 15,
                         'post_type' => 'portfolios',
                         'orderby' => 'date',
                         'order' => 'DESC',
@@ -58,9 +58,9 @@
                             </div>
                         </div>
                     </div>
-
                 <?php endwhile;
                 ?>
+
             </div>
 
             <div class="pagination-box text-center m-auto">
