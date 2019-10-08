@@ -12,7 +12,7 @@
             <p class="hero-box__content">Lorem ipsum dolor sit amet consectetur adipisicing
                 elit. Quas doloribus culpa itaque praesentium minima error provident ullam
                 soluta, placeat corrupti incidunt debitis architecto nostrum impedit?</p>
-            <a class="hero-box__c2a btn btn-main btn-c2a" href="#">Browse Portfolio <i class="ic" data-feather="arrow-right"></i></a>
+            <a class="hero-box__c2a btn btn-main btn-c2a" href="<?php echo site_url( '/portfolio' ); ?>">Browse Portfolio <i class="ic" data-feather="arrow-right"></i></a>
         </div>
     </div>
 </section>
