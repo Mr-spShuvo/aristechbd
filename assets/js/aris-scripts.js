@@ -4,18 +4,6 @@ feather.replace();
  * Smooth Scrolling Function
  *=============================*/
 
-function smoothScroller() {
-    var scrollLink = $('.scroll');
-
-    // Smooth scrolling
-    scrollLink.click(function (e) {
-        e.preventDefault();
-        $('body,html').delay(100).animate({
-            scrollTop: $(this.hash).offset().top
-        }, 1500);
-    });
-
-}
-
-smoothScroller();
-
+var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 2000
+});

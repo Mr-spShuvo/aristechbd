@@ -19,9 +19,9 @@
                         <div class="card-body contact-box__info">
                             <span>
                                 <i class="ic" data-feather="mail"></i> sales@aristechbd.com <br>
-                                <i class="ic" data-feather="phone-call"></i> +088 01956 565656
+                                <i class="ic" data-feather="phone-call"></i> +880 1711 128595
                                 <br>
-                                <i class="ic" data-feather="video"></i> aristechbd.sales
+                                <i class="ic" data-feather="video"></i> atikkybd
                             </span>
                         </div>
                     </div>
@@ -36,10 +36,10 @@
 
                         <div class="card-body contact-box__info">
                             <span>
-                                <i class="ic" data-feather="mail"></i> support@aristechbd.com <br>
-                                <i class="ic" data-feather="phone-call"></i> +088 01956 565656
+                                <i class="ic" data-feather="mail"></i> info@aristechbd.com <br>
+                                <i class="ic" data-feather="phone-call"></i> +880 1712 486694
                                 <br>
-                                <i class="ic" data-feather="video"></i> aristechbd.support
+                                <i class="ic" data-feather="video"></i> atikkybd
                             </span>
                         </div>
                     </div>
@@ -51,10 +51,10 @@
                             <i data-feather="map-pin"></i>
                             <h3>Office Address</h3>
                         </div>
-                        <div class="card-body contact-box__info">
-                            <span>1059/4/A, Bindu Britto Goli,
-                                Jamtola Bazar, East Shewrapara,
-                                Mirpur, Dhaka, Bangladesh - 1216</span>
+                        <div class="card-body contact-box__info text-center">
+                            <span> House#01, Road#02, Metro Housing, <br> 
+                                Bosila, Mohammadpur -1207, <br> 
+                                Dhaka, Bangladesh</span>
                         </div>
                     </div>
 
