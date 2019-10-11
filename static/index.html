@@ -10,8 +10,7 @@
     <!-- Styleshhets -->
     <!-- Feather Icon -->
     <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="../assets/css/aris-style.css">
@@ -23,11 +22,11 @@
     <header id="home">
         <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-white py-2">
             <div class="container">
-                <a href="/" class="navbar-brand"><img src="../assets/img/upwork.svg"
-                        alt="site-logo" /><span class="text-grad">ArisTech</span> </a>
+                <a href="/" class="navbar-brand"><img src="../assets/img/upwork.svg" alt="site-logo" /><span
+                        class="text-grad">ArisTech</span> </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <i data-feather="menu"></i>
                 </button>
 
@@ -36,8 +35,20 @@
                         <li class="nav-item">
                             <a class="nav-link scroll" href="/#home">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link scroll" href="#services">Services</a>
+                        <li class="dropdown nav-item">
+                            <a class="dropdown-toggle nav-link" href="#services" role="button" id="dropdownMenuLink"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Services
+                            </a>
+
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="#">
+                                    <div class="dropdown-item__icon"><i data-feather="briefcase"></i></div>
+                                    Action
+                                </a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="../static/portfolio.html">Portfolio</a>
@@ -62,10 +73,9 @@
 
     <section class="hero">
         <div class="hero-content">
-            <video class="hero-vid" autoplay loop>
+            <video class="hero-vid" autoplay loop playsinline="playsinline">
                 <source src="../assets/vid/hero-bg.mp4" type="video/mp4">
-                <img src="../assets/vid/hero-bg.jpg"
-                    title="Your browser does not support the <video> tag">
+                <img src="../assets/vid/hero-bg.jpg" title="Your browser does not support the <video> tag">
             </video>
             <div id="video-overlays"></div>
             <div class="hero-box">
@@ -73,8 +83,8 @@
                 <p class="hero-box__content">Lorem ipsum dolor sit amet consectetur adipisicing
                     elit. Quas doloribus culpa itaque praesentium minima error provident ullam
                     soluta, placeat corrupti incidunt debitis architecto nostrum impedit?</p>
-                <a class="hero-box__c2a btn btn-main btn-c2a" href="#">Browse Portfolio <i
-                        class="ic" data-feather="arrow-right"></i></a>
+                <a class="hero-box__c2a btn btn-main btn-c2a" href="#">Browse Portfolio <i class="ic"
+                        data-feather="arrow-right"></i></a>
             </div>
         </div>
     </section>
@@ -83,8 +93,8 @@
         <section class="services" id="services">
             <div class="container">
                 <div class="sec-box">
-                    <h2 class="sec-box__title"> <span class="text-grad">Services</span> <i
-                            data-feather="minus"></i> We Offer</h2>
+                    <h2 class="sec-box__title"> <span class="text-grad">Services</span> <i data-feather="minus"></i> We
+                        Offer</h2>
                     <p class="sec-box__content">Lorem ipsum dolor sit amet consectetur adipisicing
                         elit. Nemo a asperiores dolores ex ab soluta, dolore delectus qui sequi
                         totam commodi iste voluptatibus? Quaerat doloribus expedita quia atque et
@@ -114,8 +124,7 @@
                             <p class="service-box__description">Lorem ipsum, dolor sit amet
                                 consectetur adipisicing elit. Saepe vitae doloribus facilis magnam
                                 dolores, tenetur veniam soluta neque ea quis.</p>
-                            <a class="service-box__link" href="#">Learn More <i
-                                    data-feather="arrow-right"></i></a>
+                            <a class="service-box__link" href="#">Learn More <i data-feather="arrow-right"></i></a>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-4 mb-5">
@@ -127,8 +136,7 @@
                             <p class="service-box__description">Lorem ipsum, dolor sit amet
                                 consectetur adipisicing elit. Saepe vitae doloribus facilis magnam
                                 dolores, tenetur veniam soluta neque ea quis.</p>
-                            <a class="service-box__link" href="#">Learn More <i
-                                    data-feather="arrow-right"></i></a>
+                            <a class="service-box__link" href="#">Learn More <i data-feather="arrow-right"></i></a>
                         </div>
                     </div>
 
@@ -141,8 +149,7 @@
                             <p class="service-box__description">Lorem ipsum, dolor sit amet
                                 consectetur adipisicing elit. Saepe vitae doloribus facilis magnam
                                 dolores, tenetur veniam soluta neque ea quis.</p>
-                            <a class="service-box__link" href="#">Learn More <i
-                                    data-feather="arrow-right"></i></a>
+                            <a class="service-box__link" href="#">Learn More <i data-feather="arrow-right"></i></a>
                         </div>
 
                     </div>
@@ -155,8 +162,7 @@
                             <p class="service-box__description">Lorem ipsum, dolor sit amet
                                 consectetur adipisicing elit. Saepe vitae doloribus facilis magnam
                                 dolores, tenetur veniam soluta neque ea quis.</p>
-                            <a class="service-box__link" href="#">Learn More <i
-                                    data-feather="arrow-right"></i></a>
+                            <a class="service-box__link" href="#">Learn More <i data-feather="arrow-right"></i></a>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-4 mb-5">
@@ -168,8 +174,7 @@
                             <p class="service-box__description">Lorem ipsum, dolor sit amet
                                 consectetur adipisicing elit. Saepe vitae doloribus facilis magnam
                                 dolores, tenetur veniam soluta neque ea quis.</p>
-                            <a class="service-box__link" href="#">Learn More <i
-                                    data-feather="arrow-right"></i></a>
+                            <a class="service-box__link" href="#">Learn More <i data-feather="arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -192,8 +197,7 @@
                             <div class="col-sm mb-5">
                                 <div class="brand-box">
                                     <a class="brand-box__link"
-                                        href="https://www.upwork.com/o/companies/~010ce9dc1d64f66af6"
-                                        target="_blank">
+                                        href="https://www.upwork.com/o/companies/~010ce9dc1d64f66af6" target="_blank">
                                         <div class="brand-box__image"
                                             style="background-image: url('../assets/img/brand-1.png');">
                                         </div>
@@ -205,8 +209,7 @@
                             <div class="col-sm mb-5">
                                 <div class="brand-box">
                                     <a class="brand-box__link"
-                                        href="https://www.upwork.com/o/companies/~01c3b3047a7e58e378"
-                                        target="_blank">
+                                        href="https://www.upwork.com/o/companies/~01c3b3047a7e58e378" target="_blank">
                                         <div class="brand-box__image"
                                             style="background-image: url('../assets/img/brand-2.png');">
                                         </div>
@@ -224,8 +227,8 @@
         <section class="why">
             <div class="container">
                 <div class="sec-box">
-                    <h2 class="sec-box__title"> <span class="text-grad">Why Us</span> <i
-                            data-feather="minus"></i> Best Solutions</h2>
+                    <h2 class="sec-box__title"> <span class="text-grad">Why Us</span> <i data-feather="minus"></i> Best
+                        Solutions</h2>
                     <p class="sec-box__content">Lorem ipsum dolor sit amet consectetur adipisicing
                         elit. Nemo a asperiores dolores ex ab soluta, dolore delectus qui sequi
                         totam commodi iste voluptatibus? Quaerat doloribus expedita quia atque et
@@ -318,8 +321,8 @@
         <!-- Overview -->
         <div class="container">
             <section class="overview">
-                <h2 class="overview__heading"><span class="text-grad">ArisTech</span> <i
-                        data-feather="minus"></i> at A Glance
+                <h2 class="overview__heading"><span class="text-grad">ArisTech</span> <i data-feather="minus"></i> at A
+                    Glance
                 </h2>
                 <div class="container">
                     <div class="row">
@@ -361,8 +364,8 @@
             <div class="container">
                 <!-- Testimonials Header Section -->
                 <div class="sec-box">
-                    <h2 class="sec-box__title"> <span class="text-grad">Testimonials</span> <i
-                            data-feather="minus"></i> What Our Clients Say</h2>
+                    <h2 class="sec-box__title"> <span class="text-grad">Testimonials</span> <i data-feather="minus"></i>
+                        What Our Clients Say</h2>
                     <p class="sec-box__content">Lorem ipsum dolor sit amet consectetur adipisicing
                         elit. Nemo a asperiores dolores ex ab soluta, dolore delectus qui sequi
                         totam commodi iste voluptatibus? Quaerat doloribus expedita quia atque et
@@ -386,8 +389,7 @@
                                     distinctio qui impedit est praesentium aliquid ex aliquam ea
                                     optio eius laboriosam vel veritatis id a dolorum nulla!</p>
                                 <div class="testimonials-box__author">
-                                    <img class="testimonials-box__img" src="../assets/img/user.jpeg"
-                                        alt="">
+                                    <img class="testimonials-box__img" src="../assets/img/user.jpeg" alt="">
                                     <div>
                                         <h4 class="testimonials-box__title">James C.</h4>
                                         <p class="testimonials-box__designation">Author, Webhooks
@@ -404,8 +406,7 @@
                                     distinctio qui impedit est praesentium aliquid ex aliquam ea
                                     optio eius laboriosam vel veritatis id a dolorum nulla!</p>
                                 <div class="testimonials-box__author">
-                                    <img class="testimonials-box__img" src="../assets/img/user.jpeg"
-                                        alt="">
+                                    <img class="testimonials-box__img" src="../assets/img/user.jpeg" alt="">
                                     <div>
                                         <h4 class="testimonials-box__title">James C.</h4>
                                         <p class="testimonials-box__designation">Author, Webhooks
@@ -422,8 +423,7 @@
                                     distinctio qui impedit est praesentium aliquid ex aliquam ea
                                     optio eius laboriosam vel veritatis id a dolorum nulla!</p>
                                 <div class="testimonials-box__author">
-                                    <img class="testimonials-box__img" src="../assets/img/user.jpeg"
-                                        alt="">
+                                    <img class="testimonials-box__img" src="../assets/img/user.jpeg" alt="">
                                     <div>
                                         <h4 class="testimonials-box__title">James C.</h4>
                                         <p class="testimonials-box__designation">Author, Webhooks
@@ -434,13 +434,11 @@
                         </div>
                     </div>
 
-                    <a class="carousel-control-prev" href="#testimonialsSec" role="button"
-                        data-slide="prev">
+                    <a class="carousel-control-prev" href="#testimonialsSec" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                     </a>
-                    <a class="carousel-control-next" href="#testimonialsSec" role="button"
-                        data-slide="next">
+                    <a class="carousel-control-next" href="#testimonialsSec" role="button" data-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                     </a>
@@ -454,7 +452,7 @@
                     <div class="col-md-2 portfolio-box__icon text-center">
                         <i data-feather="zap" class="portfolio-box__icon"></i>
                     </div>
-                    
+
                     <div class="col-md-7 portfolio-box__content">
                         <h3 class="text-grad">Supported with Care</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi eius
@@ -462,10 +460,10 @@
                             sint.</p>
                     </div>
                     <div class="col-md-3 portfolio-box__link text-center">
-                            <a class=" btn btn-sub btn-c2a" href="#">View Portfolio <i class="ic"
+                        <a class=" btn btn-sub btn-c2a" href="#">View Portfolio <i class="ic"
                                 data-feather="arrow-right"></i></a>
                     </div>
-                    
+
                 </div>
             </div>
             <div class="portfolio-path"></div>
@@ -482,16 +480,15 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 site-overview mb-5">
-                        <a href="/"><img src="../assets/img/icon.png" alt="site-logo"
-                                height="40" /><span class="text-grad">ArisTech</span> </a>
+                        <a href="/"><img src="../assets/img/icon.png" alt="site-logo" height="40" /><span
+                                class="text-grad">ArisTech</span> </a>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio omnis
                             cum, aut eaque expedita ea magnam.</p>
                         <ul class="footer-social">
                             <li><a href="#"><i data-feather="facebook"></i></a></li>
                             <li><a href="#"> <i data-feather="linkedin"></i></a></li>
                             <li><a href="#"> <i data-feather="twitter"></i></a></li>
-                            <li><a href="#"><img src="../assets/img/angelco.svg" alt=""
-                                        srcset=""></a></li>
+                            <li><a href="#"><img src="../assets/img/angelco.svg" alt="" srcset=""></a></li>
                             <li><a href="#"><img src="../assets/img/cb.png" alt="" srcset=""></a>
                             </li>
                         </ul>
@@ -547,7 +544,8 @@
     <script src="../assets/js/jquery-3.4.1.min.js"></script>
     <script src="../assets/js/popper.min.js"></script>
     <script src="../assets/js/bootstrap.min.js"></script>
-    <script src="../assets/js/aris-script.js"></script>
+    <script src="../assets/js/smooth.min.js"></script>
+    <script src="../assets/js/aris-scripts.js"></script>
 </body>
 
 </html>
