@@ -4,7 +4,7 @@
     <div class="page-header text-center">
         <i class="page-header__icon" data-feather="users"></i>
         <h1 class="page-header__title">Our Team</h1>
-        <p class="page-header__text">THIS IS OUR AWESOME TEAM</p>
+        <p class="page-header__text">Learn about OUR TEAM Members</p>
     </div>
 
     <section class="team-content">
@@ -163,7 +163,6 @@
             ?>
         </div>
 
-
         <!-- Operations & Quality Assurance -->
         <div class="team-employee team-others mt-4">
             <h2 class="text-center text-grad">Operations & Quality Assurance</h2>
@@ -227,7 +226,6 @@
             </div>
         </div>
 
-
         <!-- Web Research Team -->
         <div class="team-employee team-others">
             <h2 class="text-center text-grad">Web Research Team</h2>
@@ -255,7 +253,6 @@
             wp_reset_query(); ?>
             </div>
         </div>
-
 
         <!-- Administrative Support Team -->
         <div class="team-employee team-others">
@@ -288,7 +285,6 @@
             </div>
         </div>
 
-
         <!-- Design & Development Team -->
         <div class="team-employee team-others">
             <h2 class="text-center text-grad">Design & Development Team</h2>
@@ -320,7 +316,6 @@
             </div>
         </div>
 
-
         <section class="team-c2a">
             <div class="container">
                 <div class="row portfolio-box">
@@ -341,7 +336,6 @@
             <div class="portfolio-path"></div>
         </section>
     </section>
-
 </main>
 
 <?php get_footer() ?>

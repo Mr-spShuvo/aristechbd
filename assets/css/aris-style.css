@@ -198,8 +198,40 @@ img {
     -webkit-text-fill-color: transparent;
 }
 
+.navbar-brand{
+    position: relative;
+}
+
 .navbar-brand img {
-    width: 40px;
+    width: 42px;
+    position: absolute;
+    bottom: 2px;
+}
+
+.navbar-brand__text{
+    /* position: absolute;
+    top: 50%;
+    left: 50px;
+    transform: translateY(-50%); */
+    margin-left: 50px;
+    padding-top: 10px!important;
+    background: linear-gradient(to left bottom, var(--c-sub), var(--c-sub-light));
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 24.5px;
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+footer .navbar-brand__text{
+    background: linear-gradient(to left bottom, var(--c-main), var(--c-main-light));
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .nav-item {
@@ -569,7 +601,7 @@ img {
     width: 80%;
     margin: auto;
     padding-top: 20px;
-    padding-bottom: 160px;
+    padding-bottom: 180px;
 }
 
 .testimonials-box__author {
@@ -593,6 +625,14 @@ img {
     margin: 0;
 }
 
+@media (max-width: 768px){
+    .testimonials-box__author {
+        position: absolute;
+        top: 20x;
+        bottom: 40px;
+        right: 0;
+    }
+}
 
 /*---------------------------
     => Overview Section
@@ -811,8 +851,8 @@ img {
 /*----- Below 480px ----- */
 @media only screen and (max-width: 480px) {
     .portfolio-path {
-        height: 320px;
-        top: 3460px;
+        height: 240px;
+        top: 340px;
 
     }
 }

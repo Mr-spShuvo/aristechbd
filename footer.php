@@ -3,15 +3,17 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 site-overview mb-5">
-                    <a href="<?php echo site_url('/'); ?>"><img src="<?php echo get_template_directory_uri() . '/assets/img/icon.png'; ?>" alt="site-logo" height="40" /><span class="text-grad">ArisTech</span> </a>
+                    <div class="navbar-brand">
+                        <a href="<?php echo site_url('/'); ?>"><img src="<?php echo get_template_directory_uri() . '/assets/img/icon.png'; ?>" alt="site-logo" height="40" /><span class="navbar-brand__text">ArisTech</span> </a>
+                    </div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio omnis
                         cum, aut eaque expedita ea magnam.</p>
                     <ul class="footer-social">
                         <li><a target="_blank" href="https://www.facebook.com/aristechbd/" title="Facebook"><i data-feather="facebook"></i></a></li>
                         <li><a target="_blank" href="https://www.linkedin.com/company/aristech-bd" title="LinkedIn"> <i data-feather="linkedin"></i></a></li>
                         <li><a target="_blank" href="https://twitter.com/AristechBD" title="Twitter"> <i data-feather="twitter"></i></a></li>
-                        <li><a target="_blank" href="https://angel.co/company/aristechbd" title="Angel.co"><img src="<?php echo get_template_directory_uri() . '/assets/img/angelco.svg'; ?>" alt="" srcset=""></a></li>
-                        <li><a target="_blank" href="https://www.crunchbase.com/organization/aristech-bd" title="Crunchbase"><img src="<?php echo get_template_directory_uri() . '/assets/img/cb.png'; ?>" alt="" srcset=""></a>
+                        <li><a target="_blank" href="https://angel.co/company/aristechbd" title="Angel.co"><img src="<?php echo get_template_directory_uri() . '/assets/img/angelco.svg'; ?>"></a></li>
+                        <li><a target="_blank" href="https://www.crunchbase.com/organization/aristech-bd" title="Crunchbase"><img src="<?php echo get_template_directory_uri() . '/assets/img/cb.png'; ?>"></a>
                         </li>
                     </ul>
                 </div>
@@ -57,8 +59,8 @@
                         <li><a target="_blank" href="skype:atikkybd"> <i data-feather="video"></i> atikkybd</a>
                         </li>
                         <li><i data-feather="map-pin"></i>
-                            <address class="d-inline">House#01, Road#02, Metro Housing, <br> 
-                                Bosila, Mohammadpur -1207, <br> 
+                            <address class="d-inline">House#01, Road#02, Metro Housing, <br>
+                                Bosila, Mohammadpur -1207, <br>
                                 Dhaka, Bangladesh</address>
                         </li>
                     </ul>

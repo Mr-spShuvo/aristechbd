@@ -4,8 +4,9 @@
     <div class="page-header text-center">
         <i class="page-header__icon" data-feather="mail"></i>
         <h1 class="page-header__title">Contact Us</h1>
-        <p class="page-header__text">Read our latest blogs</p>
+        <p class="page-header__text">Send Us Your Message</p>
     </div>
+
     <section class="contact-us">
         <div class="container">
             <div class="row">
@@ -52,19 +53,18 @@
                             <h3>Office Address</h3>
                         </div>
                         <div class="card-body contact-box__info text-center">
-                            <span> House#01, Road#02, Metro Housing, <br> 
-                                Bosila, Mohammadpur -1207, <br> 
+                            <span> House#01, Road#02, Metro Housing, <br>
+                                Bosila, Mohammadpur -1207, <br>
                                 Dhaka, Bangladesh</span>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
     </section>
 
     <section class="contact-form">
-        <h2 class="text-center text-grad">Contact Form</h2>
+        <h2 class="text-center text-grad">WE WILL GET BACK TO YOU ASAP</h2>
         <hr class="divider divider-main">
         <div class="container">
             <?php while (have_posts()) : the_post(); ?>

@@ -95,8 +95,6 @@
         <div class="portfolio-single__contact text-center mb-5">
             <a class="btn btn-main" href="<?php echo site_url('/contact') ?>">Contact Now <i class="ic" data-feather="arrow-right"></i></a>
         </div>
-        </div>
-
 </main>
 
 <?php get_footer(); ?>

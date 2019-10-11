@@ -4,7 +4,7 @@
     <div class="page-header text-center">
         <i class="page-header__icon" data-feather="package"></i>
         <h1 class="page-header__title">Portfolio</h1>
-        <p class="page-header__text">We Deliver The Total Satisfaction</p>
+        <p class="page-header__text">We Deliver Total Satisfaction</p>
     </div>
 
     <section class="portfolio">
@@ -12,19 +12,18 @@
             <div class="row flex-wrap">
 
                 <?php
+                    $portfolio = new WP_Query(
+                        array(
+                            'posts_per_page' => 15,
+                            'post_type' => 'portfolios',
+                            'orderby' => 'date',
+                            'order' => 'DESC',
+                            'paged' => get_query_var('paged') ? get_query_var('paged') : 1,
+                        )
+                    );
 
-                $portfolio = new WP_Query(
-                    array(
-                        'posts_per_page' => 15,
-                        'post_type' => 'portfolios',
-                        'orderby' => 'date',
-                        'order' => 'DESC',
-                        'paged' => get_query_var('paged') ? get_query_var('paged') : 1,
-                    )
-                );
-
-                while ($portfolio->have_posts()) :
-                    $portfolio->the_post();
+                    while ($portfolio->have_posts()) :
+                        $portfolio->the_post();
                     ?>
 
                     <div class="col-md-6 col-lg-4 mb-3 d-flex">
@@ -60,28 +59,25 @@
                     </div>
                 <?php endwhile;
                 ?>
-
             </div>
 
             <div class="pagination-box text-center m-auto">
-
                 <?php
-                $big = 999999999; // need an unlikely integer
-                echo paginate_links(array(
-                    'base' => str_replace($big, '%#%', get_pagenum_link($big)),
-                    'format' => '?paged=%#%',
-                    'prev_text'          => _x('&laquo;', 'previous set of posts'),
-                    'next_text'          => _x('&raquo;', 'next set of posts'),
-                    'current' => max(1, get_query_var('paged')),
-                    'total' => $portfolio->max_num_pages
-                ));
+                    $big = 999999999; // need an unlikely integer
+                    echo paginate_links(array(
+                        'base' => str_replace($big, '%#%', get_pagenum_link($big)),
+                        'format' => '?paged=%#%',
+                        'prev_text'          => _x('&laquo;', 'previous set of posts'),
+                        'next_text'          => _x('&raquo;', 'next set of posts'),
+                        'current' => max(1, get_query_var('paged')),
+                        'total' => $portfolio->max_num_pages
+                    ));
 
-                wp_reset_query();
+                    wp_reset_query();
                 ?>
             </div>
         </div>
     </section>
-
 </main>
 
 <?php get_footer(); ?>

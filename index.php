@@ -4,13 +4,12 @@
     <div class="page-header text-center">
         <i class="page-header__icon" data-feather="edit-3"></i>
         <h1 class="page-header__title">Blog</h1>
-        <p class="page-header__text">Read our latest blogs</p>
+        <p class="page-header__text">Read our latest Posts</p>
     </div>
     <section class="blogs">
         <div class="content-box">
             <?php while (have_posts()) : the_post(); ?>
                 <article class="article-box">
-
                     <?php if (has_post_thumbnail()) : ?>
                         <div class="article-box__img" style="background-image: url('<?php the_post_thumbnail_url(); ?>')"> </div>
                     <?php else : ?>
@@ -35,19 +34,18 @@
 
 
             <div class="pagination-box text-center m-auto">
-
                 <?php
-                $paginations_args = array(
-                    'mid_size'           => 1,
-                    'prev_text'          => _x('&laquo;', 'previous set of posts'),
-                    'next_text'          => _x('&raquo;', 'next set of posts'),
-                    'screen_reader_text' => __('Posts navigation'),
-                );
-                echo the_posts_pagination($paginations_args); ?>
+                    $paginations_args = array(
+                        'mid_size'           => 1,
+                        'prev_text'          => _x('&laquo;', 'previous set of posts'),
+                        'next_text'          => _x('&raquo;', 'next set of posts'),
+                        'screen_reader_text' => __('Posts navigation'),
+                    );
+                    echo the_posts_pagination($paginations_args);
+                ?>
             </div>
         </div>
     </section>
-
 </main>
 
 <?php get_footer(); ?>

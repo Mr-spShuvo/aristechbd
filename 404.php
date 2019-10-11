@@ -10,7 +10,7 @@
         <div class="gif-404 text-center">
             <img src="<?php echo get_template_directory_uri() . '/assets/img/404.gif'; ?>" alt="404" title="404">
             <div class="home-link-404">
-                <a href="#" class="btn btn-main btn-c2a">Go Back to home <i data-feather="arrow-right"></i></a>
+                <a href="<?php echo site_url('/') ?>" class="btn btn-main btn-c2a">Go Back to home <i data-feather="arrow-right"></i></a>
             </div>
         </div>
     </section>
