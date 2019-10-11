@@ -2,7 +2,7 @@
 
 <section class="hero">
     <div class="hero-content">
-        <video class="hero-vid" autoplay loop>
+        <video class="hero-vid" autoplay loop playsinline muted>
             <source src="<?php echo get_template_directory_uri() . '/assets/vid/hero-bg.mp4'; ?>" type="video/mp4">
             <img src="<?php echo get_template_directory_uri() . '/assets/vid/hero-bg.jpg'; ?>" title="Your browser does not support the video.">
         </video>
