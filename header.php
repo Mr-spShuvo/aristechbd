@@ -50,8 +50,35 @@
                         <li class="nav-item">
                             <a class="nav-link" href="<?php echo site_url('/'); ?>">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link scroll" href="<?php echo site_url('/#services'); ?>">Services</a>
+
+                        <li class="dropdown nav-item">
+                            <a class="dropdown-toggle nav-link" href="#services" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Services <i class="ic" data-feather="chevron-down"></i>
+                            </a>
+
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+
+                                <?php
+
+                                $services_data = new WP_Query(
+                                    array(
+                                        'posts_per_page' => 12,
+                                        'post_type' => 'services',
+                                        'order' => 'ASC',
+                                    )
+                                );
+
+                                while ($services_data->have_posts()) :
+                                    $services_data->the_post();
+                                    ?>
+
+                                    <a class="dropdown-item" href="<?php the_permalink(); ?>">
+                                        <i data-feather="<?php echo get_field('services_icon') ?>"></i>
+                                        <?php the_field('services_name') ?></a>
+                                <?php endwhile;
+                                wp_reset_query(); ?>
+
+                            </div>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="<?php echo site_url('/portfolio'); ?>">Portfolio</a>
