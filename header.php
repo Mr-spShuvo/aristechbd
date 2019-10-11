@@ -7,23 +7,23 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="robots" content="noindex" />
 
-    <!-- TODO: Meta Tags -->
-    <meta name="description" content="We offer a series of smart devices for your vehicles to protect against the theft. AVSS is the number #1 trusted brand all over the country for vehicle security system products.">
+    <!-- Meta Tags -->
+    <meta name="description" content="Before your workload becomes your burden, reach out to us. At ArisTech BD, we have all the skill-sets to handle all of your needs. Our virtual assistants will provide you with all the support to you become successful.">
 
-    <!-- TODO: Twitter Meta Tags -->
+    <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@AVSS.io">
-    <meta name="twitter:title" content="AVSS.io - Track all your vehicles with AVSS">
-    <meta name="twitter:description" content="We offer a series of smart devices for your vehicles to protect against the theft. AVSS is the number #1 trusted brand all over the country for vehicle security system products.">
+    <meta name="twitter:site" content="@AristechBD">
+    <meta name="twitter:title" content="ArisTech BD - We Deliver Leads">
+    <meta name="twitter:description" content="Before your workload becomes your burden, reach out to us. At ArisTech BD, we have all the skill-sets to handle all of your needs. Our virtual assistants will provide you with all the supports to you become successful. ">
     <meta name="twitter:image" content="<?php echo get_template_directory_uri() . '/assets/img/avss.png'; ?>">
 
-    <!-- TODO: Facebook Meta Tags -->
+    <!-- Facebook Meta Tags -->
     <meta property="og:image" content="<?php echo get_template_directory_uri() . '/assets/img/avss.png'; ?>" itemprop="thumbnailUrl">
-    <meta property="og:title" content="AVSS.io - Track all your vehicles with AVSS">
-    <meta property="og:url" content="http://avss.io/">
-    <meta property="og:site_name" content="AVSS.io">
+    <meta property="og:title" content="ArisTech BD - We Deliver Leads">
+    <meta property="og:url" content="http://aristechbad.com/">
+    <meta property="og:site_name" content="ArisTech BD">
     <meta property="og:type" content="website" />
-    <meta property="og:description" content="We offer a series of smart devices for your vehicles to protect against the theft. AVSS is the number #1 trusted brand all over the country for vehicle security system products.">
+    <meta property="og:description" content="Before your workload becomes your burden, reach out to us. At ArisTech BD, we have all the skill-sets to handle all of your needs. Our virtual assistants will provide you with all the support to you become successful. ">
 
     <link rel="shortcut icon" href="<?php echo get_template_directory_uri() . '/assets/img/icon.png'; ?>" type="image/x-icon">
 
@@ -32,7 +32,7 @@
     <?php else :  ?>
         <title><?php echo wp_title('') . ' - ' . get_bloginfo('name') ?></title>
     <?php endif; ?>
-    
+
     <?php wp_head(); ?>
 </head>
 
@@ -40,7 +40,7 @@
     <header>
         <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-white py-2">
             <div class="container">
-                <a href="<?php echo site_url('/'); ?>" class="navbar-brand"><img src="<?php echo get_template_directory_uri() . '/assets/img/icon.png'; ?>" alt="site-logo" /><span class="navbar-brand__text">ArisTech</span> </a>
+                <a href="<?php echo site_url('/'); ?>" class="navbar-brand"><img src="<?php echo get_template_directory_uri() . '/assets/img/icon.png'; ?>" alt="site-logo" /><span class="navbar-brand__text">ArisTech BD</span> </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <i data-feather="menu"></i>
                 </button>

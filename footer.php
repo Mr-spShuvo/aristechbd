@@ -4,10 +4,9 @@
             <div class="row">
                 <div class="col-lg-4 site-overview mb-5">
                     <div class="navbar-brand">
-                        <a href="<?php echo site_url('/'); ?>"><img src="<?php echo get_template_directory_uri() . '/assets/img/icon.png'; ?>" alt="site-logo" height="40" /><span class="navbar-brand__text">ArisTech</span> </a>
+                        <a href="<?php echo site_url('/'); ?>"><img src="<?php echo get_template_directory_uri() . '/assets/img/icon.png'; ?>" alt="site-logo" height="40" /><span class="navbar-brand__text">ArisTech BD</span> </a>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio omnis
-                        cum, aut eaque expedita ea magnam.</p>
+                    <p>Our objective is to help you to grow your business and build competitive advantages to ensure your continued success in the industry. And, that makes us the only consultant you can count on anytime.</p>
                     <ul class="footer-social">
                         <li><a target="_blank" href="https://www.facebook.com/aristechbd/" title="Facebook"><i data-feather="facebook"></i></a></li>
                         <li><a target="_blank" href="https://www.linkedin.com/company/aristech-bd" title="LinkedIn"> <i data-feather="linkedin"></i></a></li>

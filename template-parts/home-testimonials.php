@@ -3,10 +3,8 @@
         <!-- Testimonials Header Section -->
         <div class="sec-box">
             <h2 class="sec-box__title"> <span class="text-grad">Testimonials</span> <i data-feather="minus"></i> What Our Clients Say</h2>
-            <p class="sec-box__content">Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Nemo a asperiores dolores ex ab soluta, dolore delectus qui sequi
-                totam commodi iste voluptatibus? Quaerat doloribus expedita quia atque et
-                itaque.</p>
+            <p class="sec-box__content">
+                We are very fortunate to have formed excellent partnerships with many of our clients. We’ve formed more than just working relationships with them - we have formed true friendships through our works. Here’s what they’re saying about us.</p>
             <hr class="divider divider-main">
         </div>
 
@@ -18,7 +16,7 @@
                     'posts_per_page' =>  -1,
                     'post_type' => 'testimonials',
                     'orderby' => 'date',
-                    'order' => 'DESC'
+                    'order' => 'ASC'
                 )
             );
             ?>

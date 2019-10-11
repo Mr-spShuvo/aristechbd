@@ -322,7 +322,9 @@ footer .navbar-brand__text{
 }
 
 .hero-box__content {
-    margin-bottom: 30px;
+    margin: 30px auto;
+    max-width: 80%;
+
 }
 
 /*----- Below 1366px -----*/
@@ -340,8 +342,6 @@ footer .navbar-brand__text{
         letter-spacing: 1px;
     }
 
-
-
 }
 
 /*----- Below 768px -----*/
@@ -357,7 +357,7 @@ footer .navbar-brand__text{
 
     .hero-box__content {
         font-size: 14px;
-        width: 100%;
+        max-width: 95%;
     }
 
     .hero-box__c2a {
@@ -451,9 +451,10 @@ footer .navbar-brand__text{
     padding: 10px 0;
 }
 
-.service-box__description {
-    padding: 0 20px;
-    font-size: 14px;
+.service-box__text {
+    padding: 0 30px;
+    font-size: 14.5px;
+    text-align: justify;
 }
 
 

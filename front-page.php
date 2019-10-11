@@ -9,10 +9,8 @@
         <div id="video-overlays"></div>
         <div class="hero-box">
             <h1 class="hero-box__title">We Deliver Leads</h1>
-            <p class="hero-box__content">Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Quas doloribus culpa itaque praesentium minima error provident ullam
-                soluta, placeat corrupti incidunt debitis architecto nostrum impedit?</p>
-            <a class="hero-box__c2a btn btn-main btn-c2a" href="<?php echo site_url( '/portfolio' ); ?>">Browse Portfolio <i class="ic" data-feather="arrow-right"></i></a>
+            <p class="hero-box__content">Before your workload becomes your burden, reach out to us. At ArisTech BD, we have all the skill-sets to handle all of your needs. Our virtual assistants will provide you with all the support to you become successful.</p>
+            <a class="hero-box__c2a btn btn-main btn-c2a" href="<?php echo site_url('/portfolio'); ?>">Browse Portfolio <i class="ic" data-feather="arrow-right"></i></a>
         </div>
     </div>
 </section>
@@ -23,10 +21,8 @@
         <div class="container">
             <div class="sec-box">
                 <h2 class="sec-box__title"> <span class="text-grad">Services</span> <i data-feather="minus"></i> We Offer</h2>
-                <p class="sec-box__content">Lorem ipsum dolor sit amet consectetur adipisicing
-                    elit. Nemo a asperiores dolores ex ab soluta, dolore delectus qui sequi
-                    totam commodi iste voluptatibus? Quaerat doloribus expedita quia atque et
-                    itaque.</p>
+                <p class="sec-box__content">
+                    We're experts in identifying your challenges and designing the solutions to address them quickly. We are always keeping your business at the top of our minds. We can help you with disruptive innovation - a future with unlimited possibilities.</p>
                 <hr class="divider divider-main">
             </div>
             <div class="row">
@@ -70,33 +66,29 @@
             <!-- Testimonials Header Section -->
             <div class="sec-box">
                 <h2 class="sec-box__title"> <span class="text-grad">Upwork Agencies</span> <i data-feather="minus"></i> We Operate</h2>
-                <p class="sec-box__content">Lorem ipsum dolor sit amet consectetur adipisicing
-                    elit. Nemo a asperiores dolores ex ab soluta, dolore delectus qui sequi
-                    totam commodi iste voluptatibus? Quaerat doloribus expedita quia atque et
-                    itaque.</p>
-                <hr class="divider divider-main">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm mb-5">
-                            <div class="brand-box">
-                                <a class="brand-box__link" href="https://www.upwork.com/o/companies/~010ce9dc1d64f66af6" target="_blank">
-                                    <div class="brand-box__image" style="background-image: url(<?php echo get_template_directory_uri() . '/assets/img/brand-1.png'; ?>);">
-                                    </div>
-                                    <p class="brand-box__learn">Learn More <i class="ic" data-feather="arrow-right"></i></p>
-                                </a>
+                <p class="sec-box__content"> We know the landscape, we know your market, and we understand the industry. We have been operating two different agencies on Upwork with a very high success rate. Hit the learn more button to see our profile. </p> <hr class="divider divider-main">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm mb-5">
+                                <div class="brand-box">
+                                    <a class="brand-box__link" href="https://www.upwork.com/o/companies/~010ce9dc1d64f66af6" target="_blank">
+                                        <div class="brand-box__image" style="background-image: url(<?php echo get_template_directory_uri() . '/assets/img/brand-1.png'; ?>);">
+                                        </div>
+                                        <p class="brand-box__learn">Learn More <i class="ic" data-feather="arrow-right"></i></p>
+                                    </a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-sm mb-5">
-                            <div class="brand-box">
-                                <a class="brand-box__link" href="https://www.upwork.com/o/companies/~01c3b3047a7e58e378" target="_blank">
-                                    <div class="brand-box__image" style="background-image: url(<?php echo get_template_directory_uri() . '/assets/img/brand-2.png'; ?>);">
-                                    </div>
-                                    <p class="brand-box__learn">Learn More <i class="ic" data-feather="arrow-right"></i></p>
-                                </a>
+                            <div class="col-sm mb-5">
+                                <div class="brand-box">
+                                    <a class="brand-box__link" href="https://www.upwork.com/o/companies/~01c3b3047a7e58e378" target="_blank">
+                                        <div class="brand-box__image" style="background-image: url(<?php echo get_template_directory_uri() . '/assets/img/brand-2.png'; ?>);">
+                                        </div>
+                                        <p class="brand-box__learn">Learn More <i class="ic" data-feather="arrow-right"></i></p>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
             </div>
         </div>
     </section>
@@ -105,10 +97,7 @@
         <div class="container">
             <div class="sec-box">
                 <h2 class="sec-box__title"> <span class="text-grad">Why Us</span> <i data-feather="minus"></i> Best Solutions</h2>
-                <p class="sec-box__content">Lorem ipsum dolor sit amet consectetur adipisicing
-                    elit. Nemo a asperiores dolores ex ab soluta, dolore delectus qui sequi
-                    totam commodi iste voluptatibus? Quaerat doloribus expedita quia atque et
-                    itaque.</p>
+                <p class="sec-box__content">We provide a team of expert consultants that matches your priorities. Our team is working continuously on the project to bring out the results within the limited time frame and deliver the best for the money.</p>
                 <hr class="divider divider-main">
             </div>
 
@@ -120,9 +109,7 @@
                             <i data-feather="star"></i>
                         </div>
                         <h3 class="why-box__title">WE DELIVER THE BEST</h3>
-                        <p class="why-box__description">Lorem ipsum, dolor sit amet
-                            consectetur adipisicing elit. Saepe vitae doloribus facilis magnam
-                            dolores, tenetur veniam soluta neque ea quis.</p>
+                        <p class="why-box__description">ArisTech BD is the secret weapon of successful businesses. We carefully review the task and assign them to the experts. As always, we focus on delivering the task on time and provide our customers with the best services and supports.</p>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
@@ -131,9 +118,7 @@
                             <i data-feather="users"></i>
                         </div>
                         <h3 class="why-box__title">HIGHLY DEDICATED TEAM</h3>
-                        <p class="why-box__description">Lorem ipsum, dolor sit amet
-                            consectetur adipisicing elit. Saepe vitae doloribus facilis magnam
-                            dolores, tenetur veniam soluta neque ea quis.</p>
+                        <p class="why-box__description">We have a strong team of consultants who have a wide range of skill-sets. Each of our experts has advanced knowledge and experience in their field of work. They are simply the best at what they do.</p>
                     </div>
                 </div>
 
@@ -143,9 +128,7 @@
                             <i data-feather="zap"></i>
                         </div>
                         <h3 class="why-box__title">QUICK TURN AROUND</h3>
-                        <p class="why-box__description">Lorem ipsum, dolor sit amet
-                            consectetur adipisicing elit. Saepe vitae doloribus facilis magnam
-                            dolores, tenetur veniam soluta neque ea quis.</p>
+                        <p class="why-box__description">Our consultant will devote their time and effort to performing the tasks on hand. We promise our clients of a quick turn around and deliver the best possible performance in record time than any other business out there.</p>
                     </div>
 
                 </div>
@@ -157,9 +140,7 @@
                             <i data-feather="rotate-cw"></i>
                         </div>
                         <h3 class="why-box__title">UNLIMITED REVISIONS</h3>
-                        <p class="why-box__description">Lorem ipsum, dolor sit amet
-                            consectetur adipisicing elit. Saepe vitae doloribus facilis magnam
-                            dolores, tenetur veniam soluta neque ea quis.</p>
+                        <p class="why-box__description">We complete the tasks properly we've taken on our hands. Our team design highly innovative solutions and implement them to meet your goals within the timeline. We let our clients have unlimited revisions and modifications to make the task perfect until they are satisfied.</p>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
@@ -168,9 +149,7 @@
                             <i data-feather="clock"></i>
                         </div>
                         <h3 class="why-box__title">24/7 SERVICES</h3>
-                        <p class="why-box__description">Lorem ipsum, dolor sit amet
-                            consectetur adipisicing elit. Saepe vitae doloribus facilis magnam
-                            dolores, tenetur veniam soluta neque ea quis.</p>
+                        <p class="why-box__description">You can reach out to us any time, and our highly dedicated customer services team is always ready to deliver the best experiences. We meet our client’s needs and demands with our 24/7 customer services, in any time zone.</p>
                     </div>
                 </div>
 
@@ -180,9 +159,7 @@
                             <i data-feather="help-circle"></i>
                         </div>
                         <h3 class="why-box__title">24/7 Customer Support</h3>
-                        <p class="why-box__description">Lorem ipsum, dolor sit amet
-                            consectetur adipisicing elit. Saepe vitae doloribus facilis magnam
-                            dolores, tenetur veniam soluta neque ea quis.</p>
+                        <p class="why-box__description">We believe that satisfied customers are the best to grow the business. We provide 24/7 customer support for our clients, where you can discuss any work-related issues with the experts at any hour.</p>
                     </div>
 
                 </div>
@@ -248,9 +225,7 @@
 
                 <div class="col-md-7 portfolio-box__content">
                     <h3 class="text-grad">Supported with Care</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi eius
-                        doloribus itaque laboriosam, eum cumque ipsa enim cum ea voluptatem
-                        sint.</p>
+                    <p>At ArisTech BD, our expertise and experience have helped hundreds of clients and companies to get their job done with satisfaction through our consultants' solutions. Throughout the years, we have established and sustained trusted partnerships with our clients.</p>
                 </div>
                 <div class="col-md-3 portfolio-box__link text-center">
                     <a class=" btn btn-sub btn-c2a" href="<?php echo site_url('/portfolio'); ?>">View Portfolio <i class="ic" data-feather="arrow-right"></i></a>

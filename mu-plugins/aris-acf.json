@@ -1,0 +1,867 @@
+[
+    {
+        "key": "group_5d9bd27b90cca",
+        "title": "Core Team",
+        "fields": [
+            {
+                "key": "field_5d9bd28db34a2",
+                "label": "Is this employee is form core team?",
+                "name": "is_core",
+                "type": "radio",
+                "instructions": "Select only if the employee is from the core team.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "1": "Yes"
+                },
+                "allow_null": 1,
+                "other_choice": 0,
+                "default_value": "",
+                "layout": "vertical",
+                "return_format": "value",
+                "save_other_choice": 0
+            },
+            {
+                "key": "field_5d9bd3b5b34a3",
+                "label": "Select Core Team Positions",
+                "name": "core_positions",
+                "type": "radio",
+                "instructions": "Select the Designation of the Core Employee",
+                "required": 1,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_5d9bd28db34a2",
+                            "operator": "==",
+                            "value": "1"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "1": "Founder & CEO",
+                    "2": "Director of Finace & Admin",
+                    "3": "Co-CEO & Project Director",
+                    "4": "Head of Operations & Projects"
+                },
+                "allow_null": 0,
+                "other_choice": 0,
+                "default_value": "",
+                "layout": "vertical",
+                "return_format": "value",
+                "save_other_choice": 0
+            },
+            {
+                "key": "field_5d9bddd6a3826",
+                "label": "Email Address",
+                "name": "core_email",
+                "type": "email",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_5d9bd28db34a2",
+                            "operator": "==",
+                            "value": "1"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "E.g. user@domail.com",
+                "prepend": "",
+                "append": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "team"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "side",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    },
+    {
+        "key": "group_5d9ba926a5333",
+        "title": "Employee",
+        "fields": [
+            {
+                "key": "field_5d9ba926ad31f",
+                "label": "Employee Name",
+                "name": "employee_name",
+                "type": "text",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "E.g. Shahriyar Shuvo",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5d9baa09a8327",
+                "label": "Department of the Employee",
+                "name": "employee_department",
+                "type": "radio",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "1": "Leadership & Core Team",
+                    "2": "Operations & quality assurance",
+                    "3": "Lead Generation Team",
+                    "4": "Web Research Team",
+                    "5": "Administrative Support Team",
+                    "6": "Design & Development team"
+                },
+                "allow_null": 0,
+                "other_choice": 1,
+                "save_other_choice": 1,
+                "default_value": "",
+                "layout": "vertical",
+                "return_format": "array"
+            },
+            {
+                "key": "field_5d9ba926ad358",
+                "label": "Employee Designation",
+                "name": "employee_designation",
+                "type": "text",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "E.g. Web Developer",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5d9ba926ad391",
+                "label": "Employee Image",
+                "name": "employee_img",
+                "type": "image",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "url",
+                "preview_size": "medium",
+                "library": "all",
+                "min_width": 300,
+                "min_height": 300,
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            },
+            {
+                "key": "field_5d9baa8fa8328",
+                "label": "Upwork Profile",
+                "name": "employee_upwork",
+                "type": "url",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "Enter the URL here"
+            },
+            {
+                "key": "field_5d9baad9a8329",
+                "label": "Facebook Profile",
+                "name": "employee_facebook",
+                "type": "url",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "Enter the URL here"
+            },
+            {
+                "key": "field_5d9baafca832a",
+                "label": "LinkedIn Profile",
+                "name": "employee_linkedin",
+                "type": "url",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "Enter the URL here"
+            },
+            {
+                "key": "field_5d9bab27a832b",
+                "label": "Twitter Profile",
+                "name": "employee_twitter",
+                "type": "url",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "Enter the URL here"
+            },
+            {
+                "key": "field_5d9bab67a832c",
+                "label": "Slack Profile",
+                "name": "employee_slack",
+                "type": "url",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": ""
+            },
+            {
+                "key": "field_5d9bacfa74dda",
+                "label": "Skype ID",
+                "name": "employee_skype",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5d9bad2074ddb",
+                "label": "Cruncbase Profile",
+                "name": "employee_crunchbase",
+                "type": "url",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": ""
+            },
+            {
+                "key": "field_5d9bad5974ddc",
+                "label": "Angel.co Profile",
+                "name": "employee_angelco",
+                "type": "url",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": ""
+            },
+            {
+                "key": "field_5d9ba926ad3c9",
+                "label": "Employee Info\/Message",
+                "name": "employee_info",
+                "type": "textarea",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "Write the message\/info here",
+                "maxlength": 200,
+                "rows": 4,
+                "new_lines": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "team"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "acf_after_title",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": [
+            "discussion",
+            "comments",
+            "revisions",
+            "author",
+            "format",
+            "page_attributes",
+            "featured_image",
+            "categories",
+            "tags"
+        ],
+        "active": true,
+        "description": ""
+    },
+    {
+        "key": "group_5d9b47700caf0",
+        "title": "Page Info",
+        "fields": [
+            {
+                "key": "field_5d9b477c9ca1f",
+                "label": "What is the page about?",
+                "name": "page_info",
+                "type": "text",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "Write a 1 line description.",
+                "prepend": "",
+                "append": "",
+                "maxlength": 40
+            },
+            {
+                "key": "field_5d9fc3c2356cc",
+                "label": "Page Header Icon",
+                "name": "page_icon",
+                "type": "text",
+                "instructions": "Go to feathericons.com and copy & paste the Icon name here",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page_template",
+                    "operator": "==",
+                    "value": "default"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "acf_after_title",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    },
+    {
+        "key": "group_5d9b7ebfb27f5",
+        "title": "Portfolios",
+        "fields": [
+            {
+                "key": "field_5d9b7ebfbc603",
+                "label": "Portfolio Title",
+                "name": "portfolio_title",
+                "type": "text",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "E.g. Data Entry for ArisTech",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5d9b856891595",
+                "label": "Portfolio Info",
+                "name": "portfolio_info",
+                "type": "textarea",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "Write a short description",
+                "maxlength": 200,
+                "rows": 4,
+                "new_lines": ""
+            },
+            {
+                "key": "field_5d9b7ebfbc63d",
+                "label": "Portfolio Types",
+                "name": "portfolio_types",
+                "type": "radio",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "Sales & Marketing": "Sales & Marketing",
+                    "Lead Generation": "Lead Generation",
+                    "Online Research": "Online Research",
+                    "Admin Support": "Admin Support",
+                    "Virtual Assistant": "Virtual Assistant",
+                    "Data Entry": "Data Entry"
+                },
+                "allow_null": 0,
+                "other_choice": 1,
+                "save_other_choice": 1,
+                "default_value": "",
+                "layout": "vertical",
+                "return_format": "value"
+            },
+            {
+                "key": "field_5d9b807ece4a6",
+                "label": "Portfolio Cost",
+                "name": "portfolio_cost",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "E.g. 50",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5d9b80bcce4a7",
+                "label": "Portfolio Time",
+                "name": "portfolio_time",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "E.g. 7hr",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5d9b8106ce4a8",
+                "label": "Portfolio Rate",
+                "name": "portfolio_rate",
+                "type": "range",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "min": 0,
+                "max": 5,
+                "step": "0.5",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_5d9b7ebfbc675",
+                "label": "Portfolio Image",
+                "name": "portfolio_img",
+                "type": "image",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "url",
+                "preview_size": "medium_large",
+                "library": "all",
+                "min_width": 300,
+                "min_height": 300,
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "portfolios"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "acf_after_title",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": [
+            "discussion",
+            "comments",
+            "revisions",
+            "author",
+            "format",
+            "page_attributes",
+            "featured_image",
+            "categories",
+            "tags"
+        ],
+        "active": true,
+        "description": ""
+    },
+    {
+        "key": "group_5d9be96447485",
+        "title": "Services",
+        "fields": [
+            {
+                "key": "field_5d9be96e765f9",
+                "label": "Services Name",
+                "name": "services_name",
+                "type": "text",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "E.g. Data Entry",
+                "prepend": "",
+                "append": "",
+                "maxlength": 60
+            },
+            {
+                "key": "field_5d9beae8765fb",
+                "label": "Services Icon",
+                "name": "services_icon",
+                "type": "text",
+                "instructions": "Go to www.feathericons.com and copy & paste the icon name here. (All lowercase)",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "box",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5d9bea8b765fa",
+                "label": "Services Info",
+                "name": "services_info",
+                "type": "textarea",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "Max 200 Characters",
+                "maxlength": 200,
+                "rows": 3,
+                "new_lines": ""
+            },
+            {
+                "key": "field_5d9beb6e765fc",
+                "label": "Why?",
+                "name": "services_why",
+                "type": "textarea",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "Max 300 Characters",
+                "maxlength": 300,
+                "rows": 5,
+                "new_lines": ""
+            },
+            {
+                "key": "field_5d9bebf2c6398",
+                "label": "Selling Points",
+                "name": "services_selling_points",
+                "type": "textarea",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "Max 500 Characters",
+                "maxlength": 495,
+                "rows": 5,
+                "new_lines": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "services"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "acf_after_title",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": [
+            "permalink",
+            "excerpt",
+            "discussion",
+            "comments",
+            "revisions",
+            "author",
+            "format",
+            "featured_image",
+            "categories",
+            "tags",
+            "send-trackbacks"
+        ],
+        "active": true,
+        "description": ""
+    },
+    {
+        "key": "group_5d9b6ac5914ef",
+        "title": "Testimonials",
+        "fields": [
+            {
+                "key": "field_5d9b6ad09795d",
+                "label": "Testimonial Author Name",
+                "name": "testimonial_author_name",
+                "type": "text",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "E.g. Shahriyar Shuvo",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5d9b6b329795e",
+                "label": "Testimonial Author Designation",
+                "name": "testimonial_author_designation",
+                "type": "text",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "E.g. Web Developer, 1MANDEV.com",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5d9b6b979795f",
+                "label": "Testimonial Author Image",
+                "name": "testimonial_author_img",
+                "type": "image",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "url",
+                "preview_size": "medium",
+                "library": "uploadedTo",
+                "min_width": 300,
+                "min_height": 300,
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            },
+            {
+                "key": "field_5d9b6d4dd3150",
+                "label": "Testimonial Author Message",
+                "name": "testimonial_author_msg",
+                "type": "textarea",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "Write testimonials here...",
+                "maxlength": 500,
+                "rows": "",
+                "new_lines": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "testimonials"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "acf_after_title",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": [
+            "discussion",
+            "comments",
+            "revisions",
+            "author",
+            "format",
+            "page_attributes",
+            "featured_image",
+            "categories",
+            "tags"
+        ],
+        "active": true,
+        "description": ""
+    }
+]

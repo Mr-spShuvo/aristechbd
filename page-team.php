@@ -324,9 +324,7 @@
                     </div>
                     <div class="col-md-7 portfolio-box__content">
                         <h3 class="text-grad">Want to Join our Awesome team?</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi eius
-                            doloribus itaque laboriosam, eum cumque ipsa enim cum ea voluptatem
-                            sint.</p>
+                        <p>ARISTECH is a company that provides on-demand digital solutions. We work with the world’s greatest brands. We’re oriented around flexibility, community, and results. So come join our awesome TEAM and explore beyond boundaries.</p>
                     </div>
                     <div class="col-md-3 portfolio-box__link text-center">
                         <a target="_blank" class=" btn btn-sub btn-c2a" href="mailto:">Apply Now <i class="ic" data-feather="arrow-right"></i></a>
