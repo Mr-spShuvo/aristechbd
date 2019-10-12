@@ -15,12 +15,12 @@
     <meta name="twitter:site" content="@AristechBD">
     <meta name="twitter:title" content="ArisTech BD - We Deliver Leads">
     <meta name="twitter:description" content="Before your workload becomes your burden, reach out to us. At ArisTech BD, we have all the skill-sets to handle all of your needs. Our virtual assistants will provide you with all the supports to you become successful. ">
-    <meta name="twitter:image" content="<?php echo get_template_directory_uri() . '/assets/img/avss.png'; ?>">
+    <meta name="twitter:image" content="<?php echo get_template_directory_uri() . '/assets/img/icon.png'; ?>">
 
     <!-- Facebook Meta Tags -->
-    <meta property="og:image" content="<?php echo get_template_directory_uri() . '/assets/img/avss.png'; ?>" itemprop="thumbnailUrl">
+    <meta property="og:image" content="<?php echo get_template_directory_uri() . '/assets/img/icon.png'; ?>" itemprop="thumbnailUrl">
     <meta property="og:title" content="ArisTech BD - We Deliver Leads">
-    <meta property="og:url" content="http://aristechbad.com/">
+    <meta property="og:url" content="http://aristechbd.com/">
     <meta property="og:site_name" content="ArisTech BD">
     <meta property="og:type" content="website" />
     <meta property="og:description" content="Before your workload becomes your burden, reach out to us. At ArisTech BD, we have all the skill-sets to handle all of your needs. Our virtual assistants will provide you with all the support to you become successful. ">
