@@ -71,7 +71,7 @@
 
     <div class="footer-copyright">
         <p>
-            &copy; All Rights Reserved by <a href="<?php echo site_url('/'); ?>">ArisTech</a> <?php echo date('Y') ?> | Made with &hearts; by
+            &copy; All Rights Reserved by <a href="<?php echo site_url('/'); ?>">ArisTech BD</a> <?php echo date('Y') ?> | Made with &hearts; by
             <a href="http://1mandev.com" target="_blank">1MANDEV</a>
         </p>
     </div>
