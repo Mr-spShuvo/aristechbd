@@ -179,7 +179,7 @@
                     while ($team->have_posts()) :
                         $team->the_post();
                         $team_num = get_field('employee_department')['value'];
-                        if ($team_num == 6) :
+                        if ($team_num == 2) :
                             ?>
                             <?php get_template_part('template-parts/team', 'employee') ?>
                         <?php endif; endwhile;
