@@ -320,7 +320,11 @@
                         <p>ARISTECH is a company that provides on-demand digital solutions. We work with the world’s greatest brands. We’re oriented around flexibility, community, and results. So come join our awesome TEAM and explore beyond boundaries.</p>
                     </div>
                     <div class="col-md-3 portfolio-box__link text-center">
+<<<<<<< HEAD
                         <a target="_blank" class=" btn btn-sub btn-c2a" href="mailto:career@aristechbd.com">Apply Now <i class="ic" data-feather="arrow-right"></i></a>
+=======
+                        <a target="_blank" class=" btn btn-sub btn-c2a" href="mailto:info@aristechbd.com">Apply Now <i class="ic" data-feather="arrow-right"></i></a>
+>>>>>>> 9f03f1da23a74d75960117b0a4e12ba7128bd00d
                     </div>
                 </div>
             </div>
@@ -329,4 +333,8 @@
     </section>
 </main>
 
+<<<<<<< HEAD
 <?php get_footer(); ?>
+=======
+<?php get_footer(); ?>
+>>>>>>> 9f03f1da23a74d75960117b0a4e12ba7128bd00d
