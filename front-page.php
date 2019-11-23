@@ -9,7 +9,7 @@
         <div id="video-overlays"></div>
         <div class="hero-box">
             <h1 class="hero-box__title">We Deliver Leads</h1>
-            <p class="hero-box__content">Before your workload becomes your burden, reach out to us. At ArisTech BD, we have all the skill-sets to handle all of your needs. Our virtual assistants will provide you with all the support to you become successful.</p>
+            <p class="hero-box__content">Before your workload becomes your burden, reach out to us. At ArisTech BD, we have all the skill-sets to handle all of your needs. Our virtual assistants will provide you with all the supports to you become successful.</p>
             <a class="hero-box__c2a btn btn-main btn-c2a" href="<?php echo site_url('/portfolio'); ?>">Browse Portfolio <i class="ic" data-feather="arrow-right"></i></a>
         </div>
     </div>

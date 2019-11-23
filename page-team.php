@@ -179,16 +179,10 @@
                     while ($team->have_posts()) :
                         $team->the_post();
                         $team_num = get_field('employee_department')['value'];
-                        if ($team_num == 6) :
+                        if ($team_num == 2) :
                             ?>
                             <?php get_template_part('template-parts/team', 'employee') ?>
-                        <?php endif; ?>
-
-                        <div class="card">
-                            <div class="card-body text-muted">Add Employee</div>
-                        </div>
-
-                    <?php endwhile;
+                        <?php endif; endwhile;
                     wp_reset_query(); ?>
                 </div>
             </div>
@@ -214,13 +208,8 @@
                         if ($team_num == 3) :
                             ?>
                             <?php get_template_part('template-parts/team', 'employee') ?>
-                        <?php endif; ?>
-
-                        <div class="card">
-                            <div class="card-body text-muted">Add Employee</div>
-                        </div>
-
-                    <?php endwhile;
+                        <?php endif;
+                         endwhile;
                     wp_reset_query(); ?>
                 </div>
             </div>
@@ -242,15 +231,31 @@
                     while ($team->have_posts()) :
                         $team->the_post();
                         $team_num = get_field('employee_department')['value'];
-                        if ($team_num == 4) :
-                            ?>
-                            <?php get_template_part('template-parts/team', 'employee') ?>
-                            <<?php endif; ?> <div class="card">
-                                <div class="card-body text-muted">Add Employee</div>
-                </div>
-
-            <?php endwhile;
+                        if ($team_num == 4) : ?>
+                            <div class="col-md-6 col-lg-3 mb-4 d-flex">
+								<div class="card text-center">
+									<div class="card-img-top"></div>
+									<img class="team-member__img" src="<?php echo get_field('employee_img'); ?>">
+									<div class="card-body">
+										<h4 class="team-member__name"><?php the_field('employee_name'); ?></h4>
+										<h6 class="team-member__designation"><?php the_field('employee_designation'); ?>
+										</h6>
+										<p class="text-justify pt-2"><?php the_field('employee_info'); ?></p>
+									</div>
+									<ul class="footer-social team-social">
+										
+										<li><a target="_blank" href="<?php the_field('employee_facebook'); ?>" title="Facebook"><i data-feather="facebook"></i></a>
+										</li>
+										<li><a target="_blank" href="<?php the_field('employee_twitter'); ?>" title="Twitter"><i data-feather="twitter"></i></a>
+										</li>
+										<li><a target="_blank" href="<?php the_field('employee_linkedin'); ?>" title="LinkedIn"> <i data-feather="linkedin"></i></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+                        <?php endif; endwhile;
             wp_reset_query(); ?>
+                </div>
             </div>
         </div>
 
@@ -273,13 +278,7 @@
                         if ($team_num == 5) :
                             ?>
                             <?php get_template_part('template-parts/team', 'employee') ?>
-                        <?php endif; ?>
-
-                        <div class="card">
-                            <div class="card-body text-muted">Add Employee</div>
-                        </div>
-
-                    <?php endwhile;
+                        <?php endif; endwhile;
                     wp_reset_query(); ?>
                 </div>
             </div>
@@ -304,13 +303,7 @@
                         if ($team_num == 6) :
                             ?>
                             <?php get_template_part('template-parts/team', 'employee') ?>
-                        <?php endif; ?>
-
-                        <div class="card">
-                            <div class="card-body text-muted">Add Employee</div>
-                        </div>
-
-                    <?php endwhile;
+                        <?php endif; endwhile;
                     wp_reset_query(); ?>
                 </div>
             </div>
@@ -327,7 +320,7 @@
                         <p>ARISTECH is a company that provides on-demand digital solutions. We work with the world’s greatest brands. We’re oriented around flexibility, community, and results. So come join our awesome TEAM and explore beyond boundaries.</p>
                     </div>
                     <div class="col-md-3 portfolio-box__link text-center">
-                        <a target="_blank" class=" btn btn-sub btn-c2a" href="mailto:">Apply Now <i class="ic" data-feather="arrow-right"></i></a>
+                        <a target="_blank" class=" btn btn-sub btn-c2a" href="mailto:career@aristechbd.com">Apply Now <i class="ic" data-feather="arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -336,4 +329,4 @@
     </section>
 </main>
 
-<?php get_footer() ?>
+<?php get_footer(); ?>

@@ -1,0 +1,183 @@
+[
+    {
+        "key": "group_5d9b7ebfb27f5",
+        "title": "Portfolios",
+        "fields": [
+            {
+                "key": "field_5d9b7ebfbc603",
+                "label": "Portfolio Title",
+                "name": "portfolio_title",
+                "type": "text",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "E.g. Data Entry for ArisTech",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5d9b856891595",
+                "label": "Portfolio Info",
+                "name": "portfolio_info",
+                "type": "textarea",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "Write a short description",
+                "maxlength": 200,
+                "rows": 4,
+                "new_lines": ""
+            },
+            {
+                "key": "field_5d9b7ebfbc63d",
+                "label": "Portfolio Types",
+                "name": "portfolio_types",
+                "type": "radio",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "Sales & Marketing": "Sales & Marketing",
+                    "Lead Generation": "Lead Generation",
+                    "Online Research": "Online Research",
+                    "Admin Support": "Admin Support",
+                    "Virtual Assistant": "Virtual Assistant",
+                    "Data Entry": "Data Entry"
+                },
+                "allow_null": 0,
+                "other_choice": 1,
+                "save_other_choice": 1,
+                "default_value": "",
+                "layout": "vertical",
+                "return_format": "value"
+            },
+            {
+                "key": "field_5d9b807ece4a6",
+                "label": "Portfolio Cost",
+                "name": "portfolio_cost",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "E.g. 50",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5d9b80bcce4a7",
+                "label": "Portfolio Time",
+                "name": "portfolio_time",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "E.g. 7hr",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5d9b8106ce4a8",
+                "label": "Portfolio Rate",
+                "name": "portfolio_rate",
+                "type": "range",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "min": 0,
+                "max": 5,
+                "step": "0.5",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_5d9b7ebfbc675",
+                "label": "Portfolio Image",
+                "name": "portfolio_img",
+                "type": "image",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "url",
+                "preview_size": "medium_large",
+                "library": "all",
+                "min_width": 300,
+                "min_height": 300,
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "portfolios"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "acf_after_title",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": [
+            "discussion",
+            "comments",
+            "revisions",
+            "author",
+            "format",
+            "page_attributes",
+            "featured_image",
+            "categories",
+            "tags"
+        ],
+        "active": true,
+        "description": ""
+    }
+]

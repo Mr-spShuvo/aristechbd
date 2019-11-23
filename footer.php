@@ -54,7 +54,7 @@
                     <ul class="footer-menu">
                         <li><a target="_blank" href="mailto:info@aristechbd.com"><i data-feather="mail"></i> info@aristechbd.com</a>
                         </li>
-                        <li><a target="_blank" href="call:+8801712486694"> <i data-feather="phone"></i> +880 1712 486694</a></li>
+                        <li><a target="_blank" href="tel:+8801712486694"> <i data-feather="phone"></i> +880 1712 486694</a></li>
                         <li><a target="_blank" href="skype:atikkybd"> <i data-feather="video"></i> atikkybd</a>
                         </li>
                         <li><i data-feather="map-pin"></i>
@@ -71,7 +71,7 @@
 
     <div class="footer-copyright">
         <p>
-            &copy; All Rights Reserved by <a href="<?php echo site_url('/'); ?>">ArisTech</a> <?php echo date('Y') ?> | Made with &hearts; by
+            &copy; All Rights Reserved by <a href="<?php echo site_url('/'); ?>">ArisTech BD</a> <?php echo date('Y') ?> | Made with &hearts; by
             <a href="http://1mandev.com" target="_blank">1MANDEV</a>
         </p>
     </div>
