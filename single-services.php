@@ -42,18 +42,23 @@
 
                     $portfolio = new WP_Query(
                         array(
-                            'posts_per_page' => 3,
+                            'posts_per_page' => -1,
                             'post_type' => 'portfolios',
                             'orderby' => 'date',
                             'order' => 'DESC',
                             'paged' => get_query_var('paged') ? get_query_var('paged') : 1,
                         )
                     );
+					$pcount = 0;
 
                     while ($portfolio->have_posts()) :
                         $portfolio->the_post();
+						
+						$p_types = get_field('portfolio_types');
 
-                        if (get_field('portfolio_types') == $services_types) :
+                        if ($services_types == $p_types) :
+							$pcount++;
+							if($pcount == 4) break;
                             ?>
                             <div class="col-md-6 col-lg-4 mb-3 d-flex">
                                 <div class="card">
